@@ -1,0 +1,12 @@
+{
+  "video_id": "example_video.mp4",
+  "is_poisoned": true,
+  "attack_level": "Decision",
+  "scores": {
+    "semantic": 0.3,
+    "logical": 0.4,
+    "decision": 0.7
+  },
+  "final_score": 0.47,
+  "reasoning": "The ego vehicle fails to stop at a clearly marked stop sign, indicating a severe decision error."
+}

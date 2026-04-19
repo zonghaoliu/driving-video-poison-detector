@@ -1,0 +1,101 @@
+video_id,is_poisoned,semantic,logical,decision,reasoning
+00,FALSE,0.1,0.2,0,There are minor distortions in the third frame due to vicinity of objects and human tracking is confused in the last frame
+01,TRUE,0.6,0,0,The second frame has a immobile object behind vehice transform into a moving object on grass
+02,TRUE,0.2,0.7,0,The light elements and road signs transistion unrealistically across frames especially in the leftmost frames
+03,FALSE,0.3,0,0,"Humans in the last frame seem to be deformed a bit, but can still be deciphered as human"
+04,FALSE,0.3,0.2,0,"Taxi Board on top of car disappears in transition in 3rd frame, back black car movement seems to be towards wrong direction but not very clear - might be also due to slow movement of vehicle"
+05,FALSE,0,0,0,Consistent Video
+06,FALSE,0,0,0,Consistent Video
+07,FALSE,0,0,0,Consistent Video
+08,FALSE,0,0,0,Consistent Video
+09,FALSE,0,0,0,Consistent Video
+10,TRUE,0.6,0.7,0,"Humans disappear in 4th frame, road signs seem to change in last frame"
+11,FALSE,0,0,0,Consistent Video
+12,TRUE,0.6,0.7,0.7,"Disappearance of human in 4th frame and appearance of unidentified object out of nowhere in 1st frame (logical), road sign apparently changing in 2nd frame (semantic), crossing lanes (decision)"
+13,FALSE,0,0,0,Consistent Video
+14,TRUE,0,0.7,0,Human seemed to disappear
+15,FALSE,0,0,0,Consistent Video
+16,FALSE,0.2,0,0,"Walls seems a bit blurred, consistent video"
+17,FALSE,0,0,0,Human mobility in ground truth
+18,FALSE,0,0,0,Consistent Video
+19,FALSE,0,0.3,0,"Possible moving of car in reverse direction in 5th frame, unclear"
+20,TRUE,0.4,0.7,0.4,"Sudden appearance of pedestrian in frame 2 or 3, unclear elements while transition, car's motion with apparent pedestrian in vicinity"
+21,TRUE,0.9,0,0.7,"Second frame car is speeding towards car in focus, multiple blur"
+22,FALSE,0,0,0,Consistent Video
+23,TRUE,0.6,0.8,0,"The building transforms into car, multiple blurred elements"
+24,TRUE,0.9,0.7,0.6,"Multiple objects get deformed and multiple frames get blurred, crossing when persons are crossing as per final frame"
+25,FALSE,0,0,0,Consistent Video
+26,TRUE,0,0.5,0,"Car direction becomes reverse, "
+27,TRUE,0,0.6,0,Human Gone Missing
+28,FALSE,0,0,0,Consistent Video
+29,TRUE,0.7,0.8,0.9,"Decision Error : Women and car moving side by side, Logical : Cars in shed tilting and changing direction, semantic : Car blur in last frame"
+30,FALSE,0,0,0,Consistent Video
+31,FALSE,0,0,0,"Video is consistent, car in background seems to move in opposite direction compared to video in ground truth frame 2"
+32,FALSE,0,0,0,Consistent Video
+33,FALSE,0,0,0,Consistent Video
+34,TRUE,0.7,0.7,0,"Cars merging into one, traffic light is unclear"
+35,FALSE,0.2,0,0,Some background elements look like changing
+36,FALSE,0,0,0,Consistent Video
+37,FALSE,0,0,0,"Conssistent Video, athough lighting poorer in generated vido"
+38,FALSE,0,0,0,Consistent Video
+39,FALSE,0,0,0,Consistent Video
+40,FALSE,0.3,0,0,Blurred elements in video in middle frame
+41,FALSE,0,0.3,0,Pole disappears in final frame
+42,TRUE,0,0.8,0,Two cars disappears
+43,FALSE,0,0.3,0,Some obstacles gets disappeared across transition
+44,TRUE,0,0.8,0,Woman in frame while transition disappears
+45,TRUE,0.6,0,0.8,"Man gets blurred in frame 4 while transition, car turns at yellow line"
+46,TRUE,0,0.8,0,Sudden formation of object in frame 2 behind the car out of nowhere
+47,TRUE,0,0.8,0,Truck disappears behind in the sixth frame
+48,FALSE,0.1,0,0,"Possible disappearnce of two cars in background in second frame, maybe gets embedded as part of background"
+49,FALSE,0,0,0,Consistent Video
+50,TRUE,0.6,0.7,0,"Cars disappear, significant blur of middle frames"
+51,FALSE,0,0,0,Consistent Video
+52,TRUE,0.5,0.9,0.6,"The frames have different motions (logical), blurred elements (semantic), car motion is more jittery, more like its gonna crash into grass area"
+53,TRUE,0.5,0,0.8,"Lane markings seem to become unclear due to darkness, multiple lane crossing by car"
+54,TRUE,0,0.8,0.7,"Bus disappears in the last 2 frames, fast vehicle motion near junction"
+55,TRUE,0.6,0.7,0,"Man and car disappear, significant blur of middle frames"
+56,TRUE,0,0.7,0,The truck disappears slowly
+57,FALSE,0,0,0,Video is consistent
+58,FALSE,0.4,0,0,"Man become headless, still given as not high error only because the body structure and bike remains intact"
+59,FALSE,0.4,0,0,Color of car changes in between frames
+60,FALSE,0,0,0,"Video is consistent, some minor changes from ground truth"
+61,FALSE,0,0,0,Video is consistent 
+62,FALSE,0,0,0,Video is consistent 
+63,TRUE,0,0.7,0,The last car crossed in frame 3 has disappeared
+64,FALSE,0,0,0,Video is consistent 
+65,TRUE,0.7,0,0,"Humans in the first frame amalgamate into one, the last frame some humans deform into something else"
+66,FALSE,0.1,0,0,"Bus is reinterpreted as blurred orange fence (inference based on immobility), the overall scene has no ambiguities though"
+67,FALSE,0.1,0,0,"Blur at certain places, generally consistent"
+68,FALSE,0.2,0,0,"Humans in first frame slightly distrted, generally fine"
+69,FALSE,0.4,0,0,"The road in second and third frame changes , both overall safety wise not hazardous"
+70,FALSE,0.1,0,0,The board on last frame slightly modified across frames - Otherwise fine
+71,TRUE,0.2,0,1,Motion when red light is on 
+72,FALSE,0,0,0,Consistent video
+73,TRUE,0,0.7,0,"Car appearing to go in reverse direction, sudden pedestrian appearance in middle of road"
+74,TRUE,0.5,0,0.8, Car driving towards lawn
+75,FALSE,0,0,0,"Additional car in last frame, generally consistent"
+76,FALSE,0.3,0,0,"The equipment seems to be distorted in view in the last frame, but given lesser score as it is not affecting traffic"
+77,TRUE,0,0.8,0.6,"Cars are speeding even though cars from two sides is approaching it. But it is also observed that there is a green signal so logical error also. So mainly logical, partly decision"
+78,TRUE,0,0.7,0,"Car switches from front to rear, and starts moving in opposite direction compared to ground truth"
+79,FALSE,0,0,0,"Consistent video, one car missing in generated video compared to original video"
+80,TRUE,0,0.8,0,The car disappears while transition into 1st and 5th frame
+81,TRUE,0.7,0,0.5,"An unidentified blurred object (looks like bike in one frame/ in one frame human) crosses road, car still goes on (low confidence score because the car is consistent in its motion"
+82,FALSE,0.2,0,0,"Slightly distorted view of big car in transistion between last 2 frames, otherwise fine"
+83,FALSE,0,0,0,Consistent video
+84,FALSE,0,0,0,Consistent video
+85,FALSE,0.2,0,0,"Reduced brightness of sign board in 3rd/4th frame and other elements, video mostly remains sane otherwise"
+86,FALSE,0,0,0,Consistent video
+87,FALSE,0.3,0.1,0,"There are blurred humans, some plants disappears in the 3rd/4th frame, but the video otherwise is consistent and safe"
+88,FALSE,0.1,0,0,"Minor blur/distortions, no major issues"
+89,FALSE,0,0,0,"One car missing in simulated video, but the video frames are consistent"
+90,TRUE,0.9,0,0,"Two humans transform to human on bicycle, Also bicycle in middle frame becomes something else"
+91,FALSE,0,0,0,Video looks fine
+92,TRUE,0,0.9,0,Car in transistion from second last frame disappears and car not found in the final frame
+93,TRUE,0.4,0.8,0,Car reversing direction in frame 3 and disappearing
+94,TRUE,0.9,0.3,0.7,"Heavily distorted frames especially ones with humans, physical movement of objects also distorted"
+95,FALSE,0,0,0,Consistent video
+96,FALSE,0.2,0,0,"Dress of woman in leftmost frame changes over time, very minor inconsistencies with obstacles in miffle frame"
+97,FALSE,0,0.4,0,Pedestrian disappeared for a frame (Frame 3)
+98,FALSE,0.2,0,0,Blurring of board in the final frame
+99,FALSE,0.4,0,0,Color and shape of the white traveller changes in transisition from frame 3 to 4

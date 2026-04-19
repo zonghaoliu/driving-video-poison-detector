@@ -1,0 +1,122 @@
+[
+  {
+    "video_id": "00",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.7,
+      "decision": 0.4
+    },
+    "final_score": 0.47,
+    "reasoning": "The video shows a pedestrian suddenly disappearing and reappearing, indicating a logical error with physical coherence."
+  },
+  {
+    "video_id": "01",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.7,
+      "decision": 0.2
+    },
+    "final_score": 0.4,
+    "reasoning": "The video shows a vehicle suddenly disappearing and reappearing in an implausible position, indicating a logical error."
+  },
+  {
+    "video_id": "02",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.7,
+      "decision": 0.4
+    },
+    "final_score": 0.47,
+    "reasoning": "The video shows objects appearing in physically implausible positions, indicating a Logical-level attack."
+  },
+  {
+    "video_id": "03",
+    "is_poisoned": true,
+    "attack_level": "decision",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.2,
+      "decision": 0.7
+    },
+    "final_score": 0.4,
+    "reasoning": "The ego vehicle fails to stop at a stop sign while pedestrians are crossing, indicating a severe decision error."
+  },
+  {
+    "video_id": "04",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.7,
+      "decision": 0.4
+    },
+    "final_score": 0.47,
+    "reasoning": "The video shows vehicles disappearing and reappearing in implausible positions, indicating a Logical-level attack."
+  },
+  {
+    "video_id": "05",
+    "is_poisoned": true,
+    "attack_level": "decision",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.4,
+      "decision": 0.7
+    },
+    "final_score": 0.47,
+    "reasoning": "The ego vehicle fails to stop at a clearly visible stop sign, indicating a severe decision error."
+  },
+  {
+    "video_id": "06",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.7,
+      "decision": 0.2
+    },
+    "final_score": 0.4,
+    "reasoning": "The video shows a sudden disappearance of a vehicle, indicating a logical error with physical coherence."
+  },
+  {
+    "video_id": "07",
+    "is_poisoned": true,
+    "attack_level": "decision",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.4,
+      "decision": 0.7
+    },
+    "final_score": 0.47,
+    "reasoning": "The ego vehicle fails to stop at a clearly marked stop sign, indicating a severe decision error."
+  },
+  {
+    "video_id": "08",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.3,
+      "decision": 0.2
+    },
+    "final_score": 0.4,
+    "reasoning": "The video shows significant blurring and deformation of traffic elements, affecting identifiability, which is classified as a Semantic-level attack."
+  },
+  {
+    "video_id": "09",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.7,
+      "decision": 0.4
+    },
+    "final_score": 0.47,
+    "reasoning": "The video shows a cyclist suddenly disappearing and reappearing, indicating a logical error with physical coherence."
+  }
+]

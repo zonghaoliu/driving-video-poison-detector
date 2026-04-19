@@ -1,0 +1,466 @@
+{
+  "video_id": "05",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows slight blurring compared to the ground truth, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has slight blurring and a minor deformation of the truck's front lights.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows slight blurring, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows slight blurring, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows slight blurring, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows slight blurring, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit minor blurring and a slight deformation in the truck's front lights in the FRONT view. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "Minor blurring and slight deformation in the FRONT view, but no dangerous issues or cross-view inconsistencies.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a slight blurring of the background elements, but no significant semantic errors are present.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has a slight blurring effect on the truck, but it remains identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows a slight blurring of the parked cars, but no significant semantic errors are present.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows a slight blurring of the vehicles, but no significant semantic errors are present.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows a slight blurring of the trucks, but no significant semantic errors are present.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a slight blurring of the background elements, but no significant semantic errors are present.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit minor blurring across all views, but no significant semantic errors or cross-view inconsistencies are present.",
+      "semantic_score": "0.2",
+      "cross_view_score": "0.0",
+      "notes": "Minor blurring is present in all generated images, but it does not pose a safety risk. No cross-view inconsistencies detected.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a slight blurring of the trees and fence compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The truck in the generated image appears slightly distorted compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The vehicles in the parking lot appear slightly blurred and distorted in the generated image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows significant blurring of the vehicles and the fire hydrant.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly darker, but no significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The stop sign is slightly blurred in the generated image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit some semantic errors, primarily blurring and slight distortion of objects such as vehicles and signs. No cross-view inconsistencies were observed across the camera views.",
+      "semantic_score": "0.5",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in the form of blurring and distortion, particularly in the BACK_LEFT view. No cross-view inconsistencies detected.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows slight blurring of the background elements, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a truck with slight blurring and misalignment compared to the GT image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows significant blurring and merging of parked cars, leading to distortion.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring and distortion of vehicles, with some merging into one another.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows slight blurring of the background elements, but no significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows blurring and distortion of the stop sign and surrounding elements.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit semantic errors primarily in the form of blurring and merging of vehicles, particularly in the FRONT_RIGHT and BACK_LEFT views. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.7",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are most severe in the FRONT_RIGHT and BACK_LEFT views due to merging and distortion of vehicles. No cross-view inconsistencies were detected across the camera views.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows blurring and distortion of the fence and vegetation compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a truck with less detail and some blurring compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows significant blurring of vehicles and building details compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring and distortion of vehicles and background elements compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows blurring and less detail in the vehicles and road compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows blurring and distortion of the stop sign and surrounding area compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit significant blurring and distortion across all views, affecting vehicles, buildings, and road elements. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.5",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in all views, primarily involving blurring and distortion of key elements. These issues could potentially lead to misidentification of traffic elements, posing a moderate risk. No cross-view inconsistencies were detected.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows significant blurring of the trees and fence, which are clear in the ground-truth image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has a truck that appears slightly distorted compared to the ground-truth image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows blurring of parked cars, which are clear in the ground-truth image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows significant blurring of vehicles and buildings, which are clear in the ground-truth image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows blurring of the road and buildings, which are clear in the ground-truth image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows blurring of the stop sign and barriers, which are clear in the ground-truth image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit significant blurring across multiple views, affecting the clarity of vehicles, road signs, and other objects. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.5",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is semantic blurring across all views, which could lead to misidentification of traffic elements. No cross-view inconsistencies were detected.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows blurring and distortion of the trees and fence compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a truck that is slightly distorted and blurred compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows significant distortion of parked cars, with some cars merging into one another.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring and distortion of the parked cars and buildings.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows blurring of the truck and surrounding environment.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows distortion of the stop sign and barriers, with some blurring.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit various semantic errors, including blurring and distortion of vehicles, trees, and road elements. The most severe issue is the merging of parked cars in the FRONT_RIGHT view. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.7",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in all views, with the most severe being the merging of cars in the FRONT_RIGHT view. No cross-view inconsistencies were detected.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a vehicle that is partially blurred and distorted, affecting its recognizability.",
+          "cross_view_issue": "The vehicle's position and appearance differ significantly from the FRONT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a truck that is slightly distorted, but still recognizable.",
+          "cross_view_issue": "The truck's position and appearance differ from the FRONT_LEFT and FRONT_RIGHT views, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows a car that is distorted, with visible merging of features from adjacent vehicles.",
+          "cross_view_issue": "The car's appearance and position differ from the FRONT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows multiple vehicles that are blurred and distorted, affecting their recognizability.",
+          "cross_view_issue": "The vehicles' positions and appearances differ from the BACK view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows a vehicle that is slightly blurred but still recognizable.",
+          "cross_view_issue": "The vehicle's position and appearance differ from the BACK_LEFT and BACK_RIGHT views, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a vehicle that is distorted, with visible merging of features from adjacent vehicles.",
+          "cross_view_issue": "The vehicle's appearance and position differ from the BACK view, indicating a cross-view inconsistency."
+        }
+      ],
+      "overall_finding": "The generated images exhibit significant semantic errors, including blurring and distortion of vehicles, as well as cross-view inconsistencies where the same objects appear differently across adjacent views.",
+      "semantic_score": "0.7",
+      "cross_view_score": "0.8",
+      "notes": "The semantic errors are significant, with multiple vehicles being distorted or blurred, affecting their recognizability. Cross-view inconsistencies are severe, with objects appearing differently across views, indicating a lack of coherence in the generated images.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "No significant changes or logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "7-8",
+          "logical_issue": "A vehicle appears on the right side, consistent with GT.",
+          "decision_issue": "No decision errors observed."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent scene elements with no logical or decision errors. A vehicle appears in the last frame, consistent with the GT image.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images maintain consistency with the ground truth, and no safety issues are present.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "The truck on the left side of the road appears to be slightly distorted compared to the GT image.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "The truck's position and size remain consistent, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "The truck maintains a consistent trajectory, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "The truck continues on a consistent path, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "The truck's trajectory remains consistent, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "The truck maintains a consistent trajectory, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "The truck's trajectory remains consistent, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "7-8",
+          "logical_issue": "The truck's position and trajectory are consistent with the GT image, no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        }
+      ],
+      "overall_finding": "The generated frames show a consistent trajectory for the truck, with no significant logical or decision errors. The only minor issue is a slight distortion in the truck's appearance in the first generated frame.",
+      "logical_score": "0.1",
+      "decision_score": "0.0",
+      "notes": "The simulation maintains physical and temporal coherence across frames, with only a minor visual artifact in the first frame. No unsafe or illegal behavior by the ego vehicle is observed.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "A vehicle appears suddenly in the generated image that was not present in the GT image.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "The vehicle that appeared in frame 1 remains in an implausible position, partially on the sidewalk.",
+          "decision_issue": "Ego vehicle is not moving toward the sidewalk."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "The vehicle continues to be in an implausible position, with no logical trajectory.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "The vehicle remains in an implausible position, with no logical trajectory.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "The vehicle remains in an implausible position, with no logical trajectory.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "The vehicle remains in an implausible position, with no logical trajectory.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "The vehicle remains in an implausible position, with no logical trajectory.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "7-8",
+          "logical_issue": "The vehicle remains in an implausible position, with no logical trajectory.",
+          "decision_issue": "No decision errors observed."
+        }
+      ],
+      "overall_finding": "A vehicle appears suddenly in frame 1 and remains in an implausible position throughout the sequence, partially on the sidewalk. No decision errors related to the ego vehicle's behavior were observed.",
+      "logical_score": "0.8",
+      "decision_score": "0.0",
+      "notes": "The primary issue is the sudden appearance and implausible positioning of a vehicle, which is a significant logical error. No unsafe behavior by the ego vehicle was detected.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+__pycache__/
+*.pyc
+*.swp
+
+# Claude Code session state
+.claude/
+
+# Source data (too large / not redistributable)
+mixed_group_12/
+
+# Regenerable / large pipeline artifacts
+outputs/frames/
+outputs/debug/
+outputs/errors.log
+
+# Local model weights
+models/
+
+# Project briefs and course handouts — keep only the three .md docs at root
+*.docx
+*.pdf

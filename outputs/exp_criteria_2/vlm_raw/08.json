@@ -1,0 +1,381 @@
+{
+  "video_id": "08",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "No significant semantic or cross-view errors were observed across the views.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All generated images appear consistent with the ground truth, with no identifiable semantic or cross-view issues.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "No significant semantic or cross-view errors were observed across the views.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All generated images appear consistent with the ground-truth images, with no visible semantic or cross-view errors.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "Significant blurring of vegetation, but no misrepresentation of critical traffic elements.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The generated images are mostly consistent with the ground-truth images. There is some blurring of vegetation in the BACK_LEFT view, but it does not affect the identifiability of critical traffic elements. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.1",
+      "cross_view_score": "0.0",
+      "notes": "Minor blurring in BACK_LEFT view, but no critical traffic elements are affected. Overall, the generated images maintain consistency with the ground-truth images.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "No significant semantic or cross-view errors were observed across the views.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All generated images appear consistent with the ground truth without any notable semantic or cross-view issues.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The generated images across all views do not exhibit any significant semantic errors or cross-view inconsistencies. The visual elements are consistent and coherent with the ground-truth images.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All views are consistent with the ground-truth images, with no significant semantic or cross-view issues detected.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The generated images across all views do not exhibit any significant semantic errors or cross-view inconsistencies. All traffic elements are identifiable and consistent with the ground truth.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All views are consistent with the ground truth, with no identifiable semantic or cross-view errors.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The road sign is distorted and unreadable.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The main issue is a distorted road sign in the FRONT_RIGHT view, which is unreadable.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The distorted road sign in the FRONT_RIGHT view affects semantic understanding but does not pose an immediate safety risk. No cross-view inconsistencies were found.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a vehicle that is not present in the ground-truth image, indicating a sudden appearance.",
+          "cross_view_issue": "The vehicle that appears in the FRONT_LEFT view is not visible in the adjacent FRONT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a vehicle that is not present in the ground-truth image, indicating a sudden appearance.",
+          "cross_view_issue": "The vehicle that appears in the FRONT view is not visible in the adjacent FRONT_RIGHT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows a distortion in the road markings, making them less clear than in the ground-truth image.",
+          "cross_view_issue": "The road markings appear differently in the FRONT_RIGHT view compared to the BACK_RIGHT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows a blurred pedestrian that is not clearly identifiable compared to the ground-truth image.",
+          "cross_view_issue": "The pedestrian is not visible in the adjacent BACK view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows a vehicle that is not present in the ground-truth image, indicating a sudden appearance.",
+          "cross_view_issue": "The vehicle that appears in the BACK view is not visible in the adjacent BACK_RIGHT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a distortion in the road markings, making them less clear than in the ground-truth image.",
+          "cross_view_issue": "The road markings appear differently in the BACK_RIGHT view compared to the FRONT_RIGHT view, indicating a cross-view inconsistency."
+        }
+      ],
+      "overall_finding": "Multiple semantic errors are present, including sudden appearances of vehicles and distortions in road markings. Cross-view inconsistencies are observed with vehicles and road markings appearing differently across adjacent views.",
+      "semantic_score": "0.5",
+      "cross_view_score": "0.6",
+      "notes": "The generated images show several semantic errors, such as sudden appearances of vehicles and distortions in road markings. Cross-view inconsistencies are also present, with objects appearing differently across adjacent views. These issues could potentially affect the safety and decision-making of the ego vehicle.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No sudden disappearance or appearance of vehicles or pedestrians. Objects maintain consistent positions.",
+          "decision_issue": "No unsafe or illegal behavior by the ego vehicle observed."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent object placement and no unsafe behavior by the ego vehicle. No logical or decision errors detected.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The sequence is free of logical and decision errors. Objects and trajectories are consistent across frames.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No sudden disappearance or appearance of vehicles or pedestrians. Objects maintain plausible positions.",
+          "decision_issue": "No unsafe or illegal behavior by the ego vehicle observed."
+        },
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No jittery or impossible trajectories observed. Velocity and angular-velocity appear consistent.",
+          "decision_issue": "Ego vehicle maintains a safe path and speed."
+        },
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No cross-view inconsistencies observed. Objects maintain consistent appearance and motion.",
+          "decision_issue": "Ego vehicle does not engage in unsafe maneuvers."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent and plausible vehicle and object behavior with no logical or decision errors observed.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images maintain physical and temporal coherence with no unsafe behavior by the ego vehicle.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No sudden disappearance or appearance of vehicles or pedestrians. Objects are placed in plausible positions.",
+          "decision_issue": "No unsafe or illegal behavior by the ego vehicle observed."
+        },
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No jittery or impossible trajectories observed. Velocity and angular-velocity appear consistent between frames.",
+          "decision_issue": "No unsafe or illegal behavior by the ego vehicle observed."
+        },
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No cross-view inconsistencies observed. Objects maintain consistent appearance and motion across frames.",
+          "decision_issue": "No unsafe or illegal behavior by the ego vehicle observed."
+        }
+      ],
+      "overall_finding": "The generated frames show no logical or decision errors. The scene is consistent and plausible throughout the sequence.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images are consistent with the ground truth in terms of object placement and motion. No safety issues detected.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

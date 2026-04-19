@@ -1,0 +1,361 @@
+{
+  "video_id": "01",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The 'IN' and 'OUT' text on the car park sign is altered, affecting identifiability.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The main issue is a semantic error in the FRONT_RIGHT view where the car park sign text is altered, affecting identifiability. No significant cross-view inconsistencies were observed.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "The semantic error in the FRONT_RIGHT view is significant due to the alteration of important text on a sign, which could lead to misinterpretation.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The fire hydrant appears slightly blurred in the generated image, affecting identifiability.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The sign text is distorted in the generated image, affecting identifiability.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The tree and ground appear slightly blurred in the generated image, affecting identifiability.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The poles appear slightly blurred in the generated image, affecting identifiability.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit minor semantic errors such as blurring and text distortion, affecting the identifiability of certain elements like the fire hydrant, sign text, and poles. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "The most severe semantic issue is the distortion of the sign text in the FRONT_RIGHT view, which affects identifiability. No logical errors or cross-view inconsistencies were found.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a slight blurring of the fire hydrant compared to the GT image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a slight blurring of the trees and the road markings compared to the GT image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows significant distortion of the 'IN' and 'OUT' parking sign, making it unreadable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows a slight blurring of the tree trunk compared to the GT image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows a slight blurring of the pedestrian on the sidewalk compared to the GT image.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a significant deformation of the poles, making them appear merged with the building structure.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The most severe semantic issue is the distortion of the parking sign in the FRONT_RIGHT view and the deformation of the poles in the BACK_RIGHT view. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in multiple views, with significant issues in the FRONT_RIGHT and BACK_RIGHT views. No cross-view inconsistencies detected.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The fire hydrant is distorted and partially merged with the electrical box.",
+          "cross_view_issue": "The fire hydrant appears distorted in this view but not in others."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The parking sign is distorted and unreadable.",
+          "cross_view_issue": "The parking sign appears distorted in this view but not in others."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The tree is partially missing and distorted.",
+          "cross_view_issue": "The tree appears distorted in this view but not in others."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The pedestrian is blurred and partially missing.",
+          "cross_view_issue": "The pedestrian appears blurred in this view but not in others."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The building structure is distorted and columns are misaligned.",
+          "cross_view_issue": "The building structure appears distorted in this view but not in others."
+        }
+      ],
+      "overall_finding": "Multiple semantic errors are present, including distorted objects and blurred pedestrians. Cross-view inconsistencies are observed with objects appearing distorted in some views but not others.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.7",
+      "notes": "The most severe semantic error is the distortion and merging of objects, which affects identifiability. Cross-view inconsistencies are significant due to the varying appearance of objects across views.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows blurring and partial transparency of objects, affecting identifiability.",
+          "cross_view_issue": "The fire hydrant appears distorted and partially transparent compared to other views."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows blurring of trees and vehicles, affecting identifiability.",
+          "cross_view_issue": "The vehicle in the distance appears less distinct compared to other views."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows blurring and deformation of the building structure.",
+          "cross_view_issue": "The building structure appears inconsistent with adjacent views."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring and deformation of the parking structure.",
+          "cross_view_issue": "The parking structure appears inconsistent with adjacent views."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows blurring of vehicles and trees, affecting identifiability.",
+          "cross_view_issue": "The vehicle positions appear inconsistent with adjacent views."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows blurring and partial transparency of the building structure.",
+          "cross_view_issue": "The building structure appears inconsistent with adjacent views."
+        }
+      ],
+      "overall_finding": "The generated images exhibit significant semantic errors, including blurring and deformation of key objects such as vehicles and buildings. Cross-view inconsistencies are present, particularly in the appearance and position of structures and vehicles across different views.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.7",
+      "notes": "The semantic errors are severe due to the significant blurring and deformation affecting identifiability. Cross-view inconsistencies are also notable, particularly in the appearance of structures and vehicles.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a slight blurring of the electrical box and hydrant, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a slight blurring of the trees and the orange car, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows a slight blurring of the building and the 'IN' sign, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows significant deformation of the parking garage entrance, making it less identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows a slight blurring of the vehicles, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a slight blurring of the building and hydrant, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The most severe issue is the significant deformation of the parking garage entrance in the BACK_LEFT view, which affects identifiability.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is semantic, with significant deformation in one view. No cross-view inconsistencies were found.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a significant blurring of the electrical box and surrounding area, compromising identifiability.",
+          "cross_view_issue": "The electrical box is visible in the FRONT_LEFT view but not in the BACK_RIGHT view, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows slight blurring of the trees and road markings, but identifiability is mostly maintained.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows blurring of the building and entrance, affecting identifiability.",
+          "cross_view_issue": "The building entrance appears differently in the FRONT_RIGHT and BACK_LEFT views, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows deformation of the car park entrance, affecting identifiability.",
+          "cross_view_issue": "The car park entrance appears differently in the BACK_LEFT and FRONT_RIGHT views, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows slight blurring of the vehicles, but identifiability is mostly maintained.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows significant blurring of the building and surrounding area, compromising identifiability.",
+          "cross_view_issue": "The electrical box is visible in the FRONT_LEFT view but not in the BACK_RIGHT view, indicating a cross-view inconsistency."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, particularly blurring and deformation of key elements like buildings and entrances. Cross-view inconsistencies are noted, especially with the electrical box and building entrances appearing differently across views.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.5",
+      "notes": "Semantic errors are primarily due to blurring and deformation, affecting identifiability. Cross-view inconsistencies are observed with objects appearing differently across views.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is slightly blurred compared to the ground truth, affecting the clarity of the scene.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a car further away than in the ground truth, indicating a potential semantic error in object positioning.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image has a slight deformation in the building structure compared to the ground truth.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows a significant deformation of the parking entrance structure.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly blurred, affecting the clarity of the vehicles.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a deformation in the building structure, affecting identifiability.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including blurring and deformation of structures, which affect the identifiability of the scene. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in multiple views, primarily involving blurring and deformation of structures. No logical errors or cross-view inconsistencies were detected.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The fire hydrant gradually disappears from the scene, which is a logical error as objects should not vanish without reason.",
+          "decision_issue": "No decision errors observed as there is no visible ego vehicle or driving scenario."
+        }
+      ],
+      "overall_finding": "The generated frames show a logical error with the gradual disappearance of the fire hydrant, which is inconsistent with physical reality. No decision errors are present as there is no driving scenario depicted.",
+      "logical_score": "0.5",
+      "decision_score": "0.0",
+      "notes": "The main issue is the disappearance of the fire hydrant, indicating a logical error. No decision errors are present due to the lack of a driving scenario.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The vehicle in front appears to move smoothly without any sudden disappearance or jittery motion.",
+          "decision_issue": "The ego vehicle maintains a consistent lane and speed, showing no unsafe maneuvers."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent motion of the vehicle in front and the ego vehicle. There are no logical errors such as sudden disappearances or jittery movements. The ego vehicle does not exhibit any unsafe or illegal maneuvers, maintaining a consistent lane and speed.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated sequence is free from logical and decision errors. The vehicle in front and the ego vehicle maintain consistent and safe behavior throughout the frames.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The sign above the entrance changes text and symbols in each frame, which is physically impossible.",
+          "decision_issue": "No unsafe or illegal maneuvers by the ego vehicle are observed."
+        }
+      ],
+      "overall_finding": "The generated frames exhibit a logical error due to the changing text and symbols on the sign above the entrance, which is inconsistent with physical reality. There are no decision errors as the ego vehicle does not display unsafe behavior.",
+      "logical_score": "0.5",
+      "decision_score": "0.0",
+      "notes": "The logical error is moderate as it involves a static object changing in an impossible way, but it does not directly impact safety. No decision errors were observed.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

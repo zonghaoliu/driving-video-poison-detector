@@ -1,0 +1,12 @@
+{
+  "video_id": "example_video.mp4",
+  "is_poisoned": true,
+  "attack_level": "Semantic",
+  "scores": {
+    "semantic": 0.7,
+    "logical": 0.3,
+    "decision": 0.2
+  },
+  "final_score": 0.4,
+  "reasoning": "The video shows significant blurring and deformation of traffic elements, affecting identifiability, which is classified as a Semantic-level attack."
+}

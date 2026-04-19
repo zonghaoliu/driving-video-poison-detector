@@ -1,0 +1,122 @@
+[
+  {
+    "video_id": "00",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.55,
+    "reasoning": "The generated images show several semantic errors, including distortion and merging of vehicles, as well as blurring of a pedestrian. No cross-view inconsistencies were observed."
+  },
+  {
+    "video_id": "01",
+    "is_poisoned": false,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.4,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.37,
+    "reasoning": "The generated frames show a logical error with the gradual disappearance of the fire hydrant, which is a sudden disappearance of an object. No decision errors are observed as the ego vehicle's path is not visible."
+  },
+  {
+    "video_id": "02",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.3,
+      "logical": 0.0,
+      "decision": 0.0
+    },
+    "final_score": 0.15,
+    "reasoning": "The main issue is a blurred road marking in the FRONT view, which affects identifiability. Other views are darker but without specific semantic errors."
+  },
+  {
+    "video_id": "03",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.7,
+      "decision": 0.0
+    },
+    "final_score": 0.61,
+    "reasoning": "The most severe issue is the merging of two pedestrians into one in the BACK_RIGHT view, which poses a significant safety concern."
+  },
+  {
+    "video_id": "04",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.6,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.45,
+    "reasoning": "The most significant issue is the merging of two cars into one in the BACK_LEFT view, which is a semantic error."
+  },
+  {
+    "video_id": "05",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.35,
+      "decision": 0.35
+    },
+    "final_score": 0.575,
+    "reasoning": "The FRONT_RIGHT and BACK_LEFT views show significant semantic errors with vehicles appearing merged and distorted. The FRONT view has a slightly blurred truck, and the BACK_RIGHT view has a slightly blurred stop sign, but these do not significantly impact identifiability."
+  },
+  {
+    "video_id": "06",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.7,
+      "decision": 0.35
+    },
+    "final_score": 0.68,
+    "reasoning": "The generated images exhibit several semantic errors, including blurred vehicles and missing objects, such as the motorcycle in the BACK_LEFT view. There are also cross-view inconsistencies with the bus and motorcycle."
+  },
+  {
+    "video_id": "07",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.4,
+      "logical": 0.4,
+      "decision": 0.25
+    },
+    "final_score": 0.37,
+    "reasoning": "The main issue is a distorted traffic sign in the FRONT view, which is unreadable. No cross-view inconsistencies were found."
+  },
+  {
+    "video_id": "08",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.45,
+      "logical": 0.3,
+      "decision": 0.0
+    },
+    "final_score": 0.315,
+    "reasoning": "Multiple semantic errors are present, including sudden appearances of vehicles and distortions in road markings. Cross-view inconsistencies are observed with vehicles and road markings appearing differently across adjacent views."
+  },
+  {
+    "video_id": "09",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.65,
+      "logical": 0.6,
+      "decision": 0.0
+    },
+    "final_score": 0.505,
+    "reasoning": "Multiple semantic errors are present, including missing pedestrians and cyclists, and a distorted car. Cross-view inconsistencies are observed with the cyclist and pedestrian appearing in some views but not others."
+  }
+]

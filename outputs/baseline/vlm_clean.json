@@ -1,0 +1,122 @@
+[
+  {
+    "video_id": "00",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.8,
+      "decision": 0.0
+    },
+    "final_score": 0.61,
+    "reasoning": "The generated images exhibit significant semantic errors, including blurring and distortion of objects across all views. There are also notable cross-view inconsistencies, particularly with the appearance of pedestrians and vehicles between adjacent camera views."
+  },
+  {
+    "video_id": "01",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.5,
+    "reasoning": "The most severe semantic issue is the distortion of the parking sign in the FRONT_RIGHT view, which is unreadable. No cross-view inconsistencies were observed."
+  },
+  {
+    "video_id": "02",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.5,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.4,
+    "reasoning": "The generated images across all views are significantly darker than the ground truth images, leading to reduced visibility and potential safety concerns due to obscured road elements and objects."
+  },
+  {
+    "video_id": "03",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.8,
+      "decision": 0.0
+    },
+    "final_score": 0.64,
+    "reasoning": "The most severe semantic error is in the BACK_RIGHT view, where two pedestrians are merged into one. There are no cross-view inconsistencies observed across the camera views."
+  },
+  {
+    "video_id": "04",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.5,
+    "reasoning": "The generated images exhibit significant semantic errors, including blurring and merging of objects, particularly in the BACK_LEFT view where two vehicles merge into one. No cross-view inconsistencies were observed."
+  },
+  {
+    "video_id": "05",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.8,
+      "decision": 0.0
+    },
+    "final_score": 0.61,
+    "reasoning": "A vehicle appears suddenly in frame 1 and remains in an implausible position throughout the sequence, partially on the sidewalk. No decision errors related to the ego vehicle's behavior were observed."
+  },
+  {
+    "video_id": "06",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.7,
+      "decision": 0.0
+    },
+    "final_score": 0.56,
+    "reasoning": "Significant semantic errors are present, particularly with the distortion and merging of vehicles in the BACK_LEFT view and the blurring of the bus in the FRONT_LEFT and BACK_RIGHT views. Cross-view inconsistencies are noted with the bus and cars appearing differently across views."
+  },
+  {
+    "video_id": "07",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.5,
+      "logical": 0.0,
+      "decision": 0.0
+    },
+    "final_score": 0.25,
+    "reasoning": "The generated images across all views exhibit significant blurring, affecting the visibility of traffic signs and surroundings. No cross-view inconsistencies were observed."
+  },
+  {
+    "video_id": "08",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.5,
+      "logical": 0.6,
+      "decision": 0.0
+    },
+    "final_score": 0.45,
+    "reasoning": "The generated images exhibit varying degrees of blurring, with the BACK_LEFT view being the most affected. Cross-view inconsistencies are noted between the FRONT_LEFT and BACK_LEFT views compared to their adjacent views."
+  },
+  {
+    "video_id": "09",
+    "is_poisoned": true,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.7,
+      "logical": 0.8,
+      "decision": 0.0
+    },
+    "final_score": 0.61,
+    "reasoning": "The generated images exhibit several semantic errors, including missing and distorted objects. Cross-view inconsistencies are present, particularly with the cyclist and the black car."
+  }
+]

@@ -1,0 +1,451 @@
+{
+  "video_id": "09",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The bicycle appears slightly blurred and distorted compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The concrete mixer truck is slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The pedestrian is slightly blurred and distorted.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The cones and barriers are slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car is slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The bicycle is slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Minor blurring and slight distortion of objects across all views, but no severe semantic errors or cross-view inconsistencies observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "The generated images show minor blurring and slight distortion, but these do not pose significant safety risks. No cross-view inconsistencies were detected.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The bicycle and cyclist appear slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The cement truck appears slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck appears slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The building details are slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car appears slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The car and bicycle appear slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Minor blurring is present in all generated images compared to the GT images, but no severe semantic or cross-view issues are observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "All views show minor blurring, which is a visible artifact but not dangerous. No cross-view inconsistencies detected.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The cyclist appears blurred and slightly distorted compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicles and road markings appear slightly blurred.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck appears slightly blurred and distorted.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The building and cones appear slightly blurred.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car appears slightly blurred.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The car and bicycle appear slightly blurred.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit minor blurring and slight distortions across all views, but no severe semantic errors or cross-view inconsistencies were observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "Minor blurring and slight distortions are present, but they do not pose significant safety risks. No cross-view inconsistencies detected.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The cyclist appears slightly blurred compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The cement truck is slightly blurred, and the car in front has minor distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck's front is slightly blurred, and the pedestrian is less visible.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The building details are slightly blurred, but no major traffic elements are affected.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car is slightly blurred, but no major distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The bicycle is slightly blurred, but no major distortion.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Minor blurring and slight distortion of vehicles and pedestrians across several views, but no severe semantic or cross-view issues.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "The generated images show minor blurring and slight distortion, but no dangerous or severe issues. No cross-view inconsistencies were observed.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The cyclist appears blurred and slightly distorted compared to the GT image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicle in front appears slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck appears slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The scene is slightly blurred, but no specific object distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car appears slightly blurred, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The cyclist appears blurred and slightly distorted compared to the GT image.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images show minor blurring and slight distortion of cyclists in the FRONT_LEFT and BACK_RIGHT views. No severe semantic errors or cross-view inconsistencies were observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "Minor blurring and slight distortion of cyclists in some views, but no dangerous issues or cross-view inconsistencies.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The cyclist is blurred and distorted in the generated image.",
+          "cross_view_issue": "The cyclist appears differently in the FRONT_LEFT and BACK_RIGHT views."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has slight blurring of the vehicles.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck is slightly blurred in the generated image.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image has slight blurring of the building details.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car is slightly blurred in the generated image.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The cyclist is blurred and distorted in the generated image.",
+          "cross_view_issue": "The cyclist appears differently in the FRONT_LEFT and BACK_RIGHT views."
+        }
+      ],
+      "overall_finding": "The generated images show blurring and distortion of the cyclist in the FRONT_LEFT and BACK_RIGHT views, with cross-view inconsistency in the cyclist's appearance. Other views have minor blurring issues.",
+      "semantic_score": "0.5",
+      "cross_view_score": "0.5",
+      "notes": "The most severe issue is the distortion and cross-view inconsistency of the cyclist, which could lead to misidentification and potential safety risks.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The cyclist appears distorted and slightly blurred in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows slight blurring of the vehicles, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck appears slightly blurred in the generated image, but no severe distortion.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The pedestrian is slightly blurred in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The vehicle in the center is slightly blurred in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The cyclist appears distorted and slightly blurred in the generated image.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images show minor semantic errors such as blurring and slight distortion of cyclists and vehicles. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "Minor blurring and distortion observed in generated images, but no dangerous issues or cross-view inconsistencies.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The cyclist is missing in the generated image.",
+          "cross_view_issue": "The cyclist is missing in the FRONT_LEFT view but appears in the BACK_RIGHT view."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The black car is distorted in the generated image.",
+          "cross_view_issue": "The black car appears distorted in the FRONT view but not in the BACK view."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The truck's front is slightly blurred in the generated image.",
+          "cross_view_issue": "The truck appears slightly blurred in the FRONT_RIGHT view but not in the BACK_LEFT view."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic issues observed.",
+          "cross_view_issue": "The truck appears consistent with the FRONT_RIGHT view."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The black car is slightly blurred in the generated image.",
+          "cross_view_issue": "The black car appears consistent with the FRONT view."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The cyclist's appearance is altered in the generated image.",
+          "cross_view_issue": "The cyclist appears in the BACK_RIGHT view but is missing in the FRONT_LEFT view."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including missing and distorted objects. Cross-view inconsistencies are present, particularly with the cyclist and the black car.",
+      "semantic_score": "0.7",
+      "cross_view_score": "0.8",
+      "notes": "The most severe issues are the disappearance of the cyclist and the distortion of the black car, which could lead to dangerous situations. Cross-view inconsistencies exacerbate these issues.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "The cyclist appears to be in a consistent position and trajectory.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "The cyclist continues to move smoothly without any sudden changes.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "The cyclist maintains a consistent trajectory.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "The cyclist's movement remains smooth and consistent.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "The cyclist continues on a plausible path without jitter.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "The cyclist's trajectory remains consistent and logical.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "The cyclist continues to move smoothly without any sudden changes.",
+          "decision_issue": "No unsafe behavior from the ego vehicle is observed."
+        }
+      ],
+      "overall_finding": "The generated frames show a cyclist moving smoothly and consistently across all frames. There are no logical errors such as sudden appearances or disappearances, and the trajectory is plausible. No decision errors are observed as the ego vehicle does not exhibit unsafe behavior.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images maintain logical consistency and do not show any unsafe behavior from the ego vehicle. The cyclist's movement is smooth and plausible throughout the sequence.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent object positions and trajectories with no sudden appearances or disappearances. There are no visible logical or decision errors across the frames.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images maintain consistency with the ground truth in terms of object placement and motion. No safety issues detected.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "No significant logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent object positions and trajectories with no sudden appearances or disappearances. There are no visible logical or decision errors across the frames.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images maintain consistency with the ground truth in terms of object placement and motion. No safety issues detected.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

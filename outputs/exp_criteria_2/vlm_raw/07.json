@@ -1,0 +1,361 @@
+{
+  "video_id": "07",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The traffic sign is distorted and unreadable.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The main issue is a distorted traffic sign in the FRONT view, which is unreadable. No cross-view inconsistencies were found.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The distorted traffic sign in the FRONT view affects semantic understanding but does not pose an immediate safety risk.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is slightly blurred, but no specific traffic element is misrepresented.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a car slightly shifted in position, but it remains identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image has a slightly blurred traffic sign, but it is still recognizable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is slightly blurred, but no specific traffic element is misrepresented.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly darker, but no specific traffic element is misrepresented.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is slightly blurred, but no specific traffic element is misrepresented.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images show minor blurring and slight positional shifts, but no significant semantic errors or cross-view inconsistencies are present.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All observed issues are minor and do not affect traffic element identifiability or cross-view consistency.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The traffic sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicle appears slightly blurred but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The stop sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The road markings are slightly blurred but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The traffic sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Several traffic signs are distorted and unreadable in multiple views, which could affect traffic element identifiability.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The main issue is the distortion of traffic signs, which affects readability but does not severely impact safety. No cross-view inconsistencies were observed.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The traffic sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicle appears slightly blurred but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The stop sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic issues observed.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic issues observed.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Several traffic signs are distorted and unreadable in the generated images, which could affect traffic element identifiability.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The main issue is the distortion of traffic signs in multiple views, which affects their readability. No cross-view inconsistencies were observed.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The traffic sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicle on the right is slightly blurred but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The 'No Entry' sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The scene is slightly blurred but no specific traffic element is misrepresented.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The scene is slightly blurred but no specific traffic element is misrepresented.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The scene is slightly blurred but no specific traffic element is misrepresented.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The most significant semantic errors are the unreadable traffic signs in the FRONT_LEFT and FRONT_RIGHT views. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are primarily due to unreadable traffic signs, which could affect driving decisions. No cross-view inconsistencies were found.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The traffic sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicle on the right is slightly blurred but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The stop sign is distorted and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The arrow on the road is distorted and unclear.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The overall image is darker, but no specific semantic errors.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The mirror reflection is distorted, but no critical elements are affected.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Several semantic errors were observed, including distorted traffic signs and road markings, which could affect traffic element identifiability.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The most severe semantic error is the unreadable traffic signs, which could impact driving decisions. No cross-view inconsistencies were found.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The traffic sign is blurred and not readable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The blue car appears distorted and slightly blurred.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The stop sign is distorted and not clearly visible.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The road markings are distorted and unclear.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The road and surrounding area appear slightly blurred, but no specific element is misrepresented.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The mirror and surrounding vegetation are blurred, but no specific element is misrepresented.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "Several semantic issues were identified, including blurred traffic signs and distorted road markings, which could affect traffic element identifiability.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors include unreadable traffic signs and distorted road markings. No cross-view inconsistencies were observed.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The traffic sign is blurred and unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The vehicle on the right is slightly distorted but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The vehicle is distorted, and the traffic sign is unreadable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The road markings are distorted and unclear.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The road markings are slightly blurred but still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The scene is blurred, making it difficult to identify specific elements.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including blurred and unreadable traffic signs, distorted vehicles, and unclear road markings. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in multiple views, primarily involving blurring and distortion of traffic elements. No cross-view inconsistencies detected.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The signpost appears to change its appearance and position slightly across frames, indicating potential cross-view inconsistency.",
+          "decision_issue": "No decision errors observed; the ego vehicle maintains a consistent path."
+        }
+      ],
+      "overall_finding": "The generated frames show a slight inconsistency in the appearance and position of a signpost, which could indicate a logical error. However, there are no decision errors as the ego vehicle maintains a consistent path.",
+      "logical_score": "0.3",
+      "decision_score": "0.0",
+      "notes": "The signpost's appearance and position change slightly, which could confuse object recognition systems, but it does not affect the ego vehicle's path.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The blue car on the right side of the road appears to move in a jittery manner, with inconsistent positioning and velocity across frames.",
+          "decision_issue": "The blue car appears to be moving towards the sidewalk, which could indicate unsafe behavior."
+        }
+      ],
+      "overall_finding": "The generated frames show a blue car with jittery movement and inconsistent velocity, suggesting logical errors. Additionally, the car's trajectory towards the sidewalk indicates a potential decision error.",
+      "logical_score": "0.5",
+      "decision_score": "0.5",
+      "notes": "The blue car's jittery movement and trajectory towards the sidewalk are concerning for both logical and decision errors.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "A blue car appears gradually from frame 2 to frame 7, which is consistent with normal driving behavior.",
+          "decision_issue": "The ego vehicle maintains a consistent path and does not exhibit any unsafe behavior."
+        }
+      ],
+      "overall_finding": "The generated frames show a blue car entering the scene gradually, which is consistent with normal driving behavior. There are no logical or decision errors observed.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The sequence of frames shows a gradual appearance of a vehicle, which is expected in a driving scenario. No inconsistencies or unsafe behaviors are detected.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

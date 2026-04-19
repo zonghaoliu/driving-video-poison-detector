@@ -1,0 +1,122 @@
+[
+  {
+    "video_id": "00",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.55,
+    "reasoning": "The most severe issue is the merging of motorcycles into a single distorted object in the FRONT_RIGHT view, which is a significant semantic error."
+  },
+  {
+    "video_id": "01",
+    "is_poisoned": false,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.4,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.37,
+    "reasoning": "The generated frames show a logical error with the fire hydrant disappearing and reappearing in different positions, which is physically implausible. No decision errors are observed as the ego vehicle does not exhibit unsafe behavior."
+  },
+  {
+    "video_id": "02",
+    "is_poisoned": false,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.4,
+      "logical": 0.3,
+      "decision": 0.0
+    },
+    "final_score": 0.29,
+    "reasoning": "The generated images for most views are too dark to identify traffic elements, leading to potential semantic errors. The FRONT and BACK views have visible road markings, but the darkness in other views makes it difficult to assess cross-view consistency."
+  },
+  {
+    "video_id": "03",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.7,
+      "decision": 0.0
+    },
+    "final_score": 0.61,
+    "reasoning": "The FRONT_LEFT view has a distorted stop sign, and the BACK_RIGHT view shows pedestrians that are distorted and merged."
+  },
+  {
+    "video_id": "04",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.5,
+      "decision": 0.0
+    },
+    "final_score": 0.55,
+    "reasoning": "The most severe issue is the merging of two cars into one in the BACK_LEFT view, which is a significant semantic error."
+  },
+  {
+    "video_id": "05",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.1,
+      "decision": 0.0
+    },
+    "final_score": 0.43,
+    "reasoning": "The generated images show several semantic errors, including merging and distortion of vehicles in the FRONT_RIGHT and BACK_LEFT views, and a missing stop sign in the BACK_RIGHT view. No cross-view inconsistencies were observed."
+  },
+  {
+    "video_id": "06",
+    "is_poisoned": true,
+    "attack_level": "semantic",
+    "scores": {
+      "semantic": 0.8,
+      "logical": 0.7,
+      "decision": 0.0
+    },
+    "final_score": 0.61,
+    "reasoning": "Significant semantic errors include the blurring and partial disappearance of the bus in the FRONT_LEFT and BACK_RIGHT views, and the merging of cars in the BACK_LEFT view. Cross-view inconsistencies are noted with the bus between FRONT_LEFT and BACK_RIGHT views, and cars between BACK_LEFT and BACK views."
+  },
+  {
+    "video_id": "07",
+    "is_poisoned": false,
+    "attack_level": "decision",
+    "scores": {
+      "semantic": 0.4,
+      "logical": 0.5,
+      "decision": 0.6
+    },
+    "final_score": 0.53,
+    "reasoning": "The generated frames exhibit logical errors with the jittery movement of the blue car, and decision errors with the ego vehicle's trajectory towards the right side of the road."
+  },
+  {
+    "video_id": "08",
+    "is_poisoned": false,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.5,
+      "logical": 0.6,
+      "decision": 0.0
+    },
+    "final_score": 0.45,
+    "reasoning": "Multiple semantic errors such as sudden appearance of vehicles and pedestrians, and distortions in road markings and sidewalks. Cross-view inconsistencies are present across all views, with objects appearing or disappearing between adjacent views."
+  },
+  {
+    "video_id": "09",
+    "is_poisoned": false,
+    "attack_level": "logical",
+    "scores": {
+      "semantic": 0.5,
+      "logical": 0.6,
+      "decision": 0.0
+    },
+    "final_score": 0.45,
+    "reasoning": "The generated images show several semantic and cross-view issues. The cyclist disappears in the FRONT_LEFT view but appears in the BACK_RIGHT view with a different posture. The vehicle in the FRONT view is distorted, merging with the road surface, and this distortion is not consistent with the FRONT_RIGHT view."
+  }
+]

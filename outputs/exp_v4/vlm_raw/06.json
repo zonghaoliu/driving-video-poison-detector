@@ -1,0 +1,12 @@
+{
+  "video_id": "example_video.mp4",
+  "is_poisoned": true,
+  "attack_level": "Logical",
+  "scores": {
+    "semantic": 0.3,
+    "logical": 0.7,
+    "decision": 0.2
+  },
+  "final_score": 0.4,
+  "reasoning": "The video shows a sudden disappearance of a vehicle, indicating a logical error with physical coherence."
+}

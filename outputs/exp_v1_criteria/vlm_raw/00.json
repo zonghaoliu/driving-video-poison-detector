@@ -1,0 +1,396 @@
+{
+  "video_id": "00",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "Minor blurring of pedestrian near the building entrance.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "Slight blurring of the truck in the distance.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "Minor blurring of parked cars.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "Blurring of pedestrian crossing the road.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "Minor blurring of the pedestrian bridge.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "Minor blurring of pedestrian near the building entrance.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit minor semantic errors, primarily involving slight blurring of pedestrians and vehicles. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.2",
+      "cross_view_score": "0.0",
+      "notes": "The semantic issues are minor and do not significantly impact identifiability. No logical errors or cross-view inconsistencies were detected.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The pedestrian appears blurred and slightly deformed in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is slightly blurred, but no major semantic issues.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows slight blurring of vehicles.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The pedestrian appears blurred and slightly deformed in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly blurred, but no major semantic issues.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The pedestrian appears blurred and slightly deformed in the generated image.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images show consistent blurring and slight deformation of pedestrians across multiple views, indicating semantic errors. No cross-view logical inconsistencies were observed.",
+      "semantic_score": "0.3",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is the blurring and slight deformation of pedestrians, which affects identifiability but does not pose a high danger. No cross-view inconsistencies were found.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The pedestrian is blurred and partially deformed, affecting identifiability.",
+          "cross_view_issue": "The pedestrian's position and appearance are inconsistent with the BACK_LEFT view."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "Consistent with FRONT_LEFT and FRONT_RIGHT views."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The red car appears slightly deformed, affecting identifiability.",
+          "cross_view_issue": "Consistent with FRONT view."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The pedestrian is blurred and partially deformed, affecting identifiability.",
+          "cross_view_issue": "The pedestrian's position and appearance are inconsistent with the FRONT_LEFT view."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "Consistent with BACK_LEFT and BACK_RIGHT views."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "Consistent with BACK view."
+        }
+      ],
+      "overall_finding": "The most severe semantic issue is the blurring and partial deformation of the pedestrian in the FRONT_LEFT and BACK_LEFT views. Cross-view inconsistencies are noted in the pedestrian's position and appearance between these views.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.5",
+      "notes": "The semantic errors primarily involve the pedestrian's identifiability, while cross-view inconsistencies are noted in the pedestrian's appearance and position between FRONT_LEFT and BACK_LEFT views.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a significant blurring of the building and surrounding area, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has minor blurring but no significant semantic errors.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows a merging of motorcycles and cars, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring and deformation of parked cars, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows minor blurring but no significant semantic errors.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a pedestrian in a different position, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including blurring, merging of vehicles, and changes in pedestrian positions. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.0",
+      "notes": "The most severe semantic error is the merging of motorcycles and cars in the FRONT_RIGHT view, which significantly affects identifiability. No cross-view inconsistencies were detected.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows significant blurring of the building and sign, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has slight blurring of the truck, but it remains identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows deformation of the red car, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring of the pedestrian, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows slight blurring of the van, but it remains identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a change in the appearance of the pedestrian, affecting identifiability.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including blurring and deformation of vehicles and pedestrians, affecting identifiability. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.0",
+      "notes": "The most severe semantic issue is the deformation of the red car in the FRONT_RIGHT view, which significantly affects identifiability. No logical errors or cross-view inconsistencies were detected.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows blurring and deformation of the sign, making it less identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has slight blurring of the truck, but it remains identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows deformation of the red car, altering its appearance significantly.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring of the pedestrian, making it less identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows slight blurring of the pedestrian, but it remains identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows blurring of the pedestrian, making it less identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit semantic errors such as blurring and deformation of traffic elements, including signs, vehicles, and pedestrians. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in multiple views, with significant deformation in the FRONT_RIGHT view. No cross-view inconsistencies detected.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The sign is blurred and less readable in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The truck in the distance is less defined in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The motorcycles appear slightly merged and less distinct in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The pedestrian is less distinct and slightly blurred in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The pedestrian on the left is less distinct in the generated image.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The person walking is blurred and less distinct in the generated image.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit semantic errors such as blurring and merging of objects, affecting the identifiability of traffic elements like signs, vehicles, and pedestrians. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.6",
+      "cross_view_score": "0.0",
+      "notes": "Semantic errors are present in all views, primarily involving blurring and merging of objects, which could lead to misinterpretation of traffic elements. No logical errors or cross-view inconsistencies were detected.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows significant blurring and deformation of the sign and surrounding area, affecting identifiability.",
+          "cross_view_issue": "The sign appears differently in the FRONT_LEFT view compared to other views, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has minor blurring of the building and vehicles, but identifiability is mostly maintained.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows deformation of motorcycles and cars, affecting identifiability.",
+          "cross_view_issue": "The motorcycles appear differently in the FRONT_RIGHT view compared to other views, indicating a cross-view inconsistency."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring of vehicles, affecting identifiability.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image has minor blurring of the pedestrian and vehicles, but identifiability is mostly maintained.",
+          "cross_view_issue": "No significant cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows significant blurring and deformation of the pedestrian, affecting identifiability.",
+          "cross_view_issue": "The pedestrian appears differently in the BACK_RIGHT view compared to other views, indicating a cross-view inconsistency."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including blurring and deformation of traffic elements such as signs, vehicles, and pedestrians. Cross-view inconsistencies are observed, particularly with the sign in the FRONT_LEFT view, motorcycles in the FRONT_RIGHT view, and the pedestrian in the BACK_RIGHT view.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.7",
+      "notes": "The most severe semantic issue is the deformation and blurring of traffic elements, particularly affecting identifiability. Cross-view inconsistencies are also significant, impacting the overall coherence of the scene.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-1",
+          "logical_issue": "The pedestrian near the building entrance is present in both frames, with no logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "1-2",
+          "logical_issue": "The pedestrian appears to move slightly, consistent with walking. No logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "2-3",
+          "logical_issue": "The pedestrian continues to move naturally. No logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "3-4",
+          "logical_issue": "The pedestrian disappears suddenly, which is a logical error.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "4-5",
+          "logical_issue": "The pedestrian remains absent, confirming the disappearance.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "5-6",
+          "logical_issue": "No new logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "6-7",
+          "logical_issue": "No new logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        },
+        {
+          "frame_range": "7-8",
+          "logical_issue": "No new logical errors observed.",
+          "decision_issue": "No decision errors observed."
+        }
+      ],
+      "overall_finding": "The main issue observed is the sudden disappearance of the pedestrian between frames 3 and 4, which constitutes a logical error. There are no decision errors related to the ego vehicle's behavior.",
+      "logical_score": "0.5",
+      "decision_score": "0.0",
+      "notes": "The logical error is due to the pedestrian's sudden disappearance, which is not on the path of the ego vehicle, hence a moderate score. No decision errors were observed as the ego vehicle's behavior was not depicted in a hazardous manner.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The truck in the background remains stationary, but the car on the left side of the road gradually disappears by frame 7.",
+          "decision_issue": "No unsafe maneuvers by the ego vehicle are observed. The vehicle maintains a consistent trajectory without any illegal or hazardous actions."
+        }
+      ],
+      "overall_finding": "The generated frames show a logical error with the gradual disappearance of a car on the left side of the road. No decision errors are observed as the ego vehicle maintains a safe and consistent path.",
+      "logical_score": "0.5",
+      "decision_score": "0.0",
+      "notes": "The logical error is due to the disappearance of a car, which is not on the path of the ego vehicle, hence a moderate score. No decision errors were noted.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The generated images show a gradual transformation of the red car into a different model, which is physically implausible.",
+          "decision_issue": "No decision errors observed as the ego vehicle is not present in the frames."
+        }
+      ],
+      "overall_finding": "The generated sequence shows a logical error with the transformation of a parked car, but no decision errors as the ego vehicle is not involved.",
+      "logical_score": "0.5",
+      "decision_score": "0.0",
+      "notes": "The logical error involves a parked car changing model, which is not possible in reality. No decision errors as the ego vehicle is not depicted.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "video_id": "02",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The generated images show no significant semantic errors or cross-view inconsistencies. All views are consistent with the ground-truth images.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All generated images are consistent with the ground-truth images, with no visible semantic errors or cross-view inconsistencies.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        }
+      ],
+      "overall_finding": "The generated images across all views do not exhibit any significant semantic errors or cross-view inconsistencies.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "All generated images are consistent with the ground-truth images, with no visible semantic errors or cross-view inconsistencies.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is slightly darker, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly darker, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images are consistently darker than the ground truth images across all views, but no specific semantic errors or cross-view inconsistencies are identifiable.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "The darkness in the generated images does not obscure any specific traffic elements or create identifiable semantic errors. No cross-view inconsistencies are observed.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is significantly darker, making it difficult to identify any specific objects or elements.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is darker, but the road and lane markings are still visible. No significant semantic errors observed.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is darker, making it difficult to identify specific objects or elements.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is darker, but the fence and pole are still visible. No significant semantic errors observed.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is darker, but the road and some distant lights are visible. No significant semantic errors observed.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is significantly darker, making it difficult to identify any specific objects or elements.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images are consistently darker across all views, which affects visibility but does not introduce specific semantic errors. No cross-view inconsistencies observed.",
+      "semantic_score": "0.0",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is reduced visibility due to darker images, but no specific semantic or cross-view errors are present.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is slightly darker, with minor blurring of road markings, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is darker, with minor blurring of distant vehicle lights, but they remain identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The generated images are consistently darker than the ground truth images, with minor blurring in some views, but no significant semantic or cross-view errors are present.",
+      "semantic_score": "0.1",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is the overall darker appearance of the generated images, with minor blurring that does not affect object identification or driving decisions.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is too dark to identify any traffic elements, leading to potential semantic errors.",
+          "cross_view_issue": "The darkness makes it difficult to assess cross-view consistency."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is slightly darker, but road markings are still visible. No significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is too dark to identify any traffic elements, leading to potential semantic errors.",
+          "cross_view_issue": "The darkness makes it difficult to assess cross-view consistency."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is too dark to identify any traffic elements, leading to potential semantic errors.",
+          "cross_view_issue": "The darkness makes it difficult to assess cross-view consistency."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly darker, but road markings are still visible. No significant semantic errors.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is too dark to identify any traffic elements, leading to potential semantic errors.",
+          "cross_view_issue": "The darkness makes it difficult to assess cross-view consistency."
+        }
+      ],
+      "overall_finding": "The generated images for most views are too dark to identify traffic elements, leading to potential semantic errors. The FRONT and BACK views have visible road markings, but the darkness in other views makes it difficult to assess cross-view consistency.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.3",
+      "notes": "The primary issue is the darkness of the generated images, which obscures traffic elements and affects cross-view consistency assessment.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is significantly darker than the ground truth, making it difficult to identify any objects or road elements.",
+          "cross_view_issue": "N/A"
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is darker and lacks clarity compared to the ground truth, but road markings are still somewhat visible.",
+          "cross_view_issue": "N/A"
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, making it hard to discern objects or road elements.",
+          "cross_view_issue": "N/A"
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, obscuring details.",
+          "cross_view_issue": "N/A"
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is darker than the ground truth, but some light sources are visible.",
+          "cross_view_issue": "N/A"
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is significantly darker than the ground truth, making it difficult to identify any objects or road elements.",
+          "cross_view_issue": "N/A"
+        }
+      ],
+      "overall_finding": "The generated images across all views are significantly darker than the ground truth images, which obscures details and makes it difficult to identify objects or road elements. However, no specific semantic errors like object deformation or merging are observed.",
+      "semantic_score": "0.2",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is the overall darkness of the generated images compared to the ground truth, which affects visibility but does not introduce specific semantic errors or cross-view inconsistencies.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows blurring of road markings, making them less distinct.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is darker than the ground truth, but no specific semantic errors are identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The main issue is the blurring of road markings in the FRONT view, which affects the clarity of the road layout. Other views primarily show darker images without specific semantic errors.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The blurring of road markings in the FRONT view is the most significant issue, affecting the ability to clearly identify road layout. Other views are darker but do not present specific semantic errors.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The frames are very dark, making it difficult to identify any objects or movements clearly. No visible logical errors such as sudden disappearance or appearance of vehicles or pedestrians, or jittery trajectories are detectable due to the darkness.",
+          "decision_issue": "Due to the darkness, it is not possible to assess any decision errors related to the ego vehicle's behavior."
+        }
+      ],
+      "overall_finding": "The generated frames are too dark to identify any specific logical or decision errors. No visible objects or movements can be assessed for safety issues.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The darkness of the frames prevents any meaningful evaluation of logical or decision errors. No identifiable objects or movements are visible.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "No sudden disappearance or appearance of vehicles or pedestrians. No objects in physically implausible positions. Consistent trajectories observed.",
+          "decision_issue": "No unsafe or illegal behavior by the ego vehicle. The vehicle remains on the road and follows a consistent path."
+        }
+      ],
+      "overall_finding": "The generated frames show consistent and plausible vehicle trajectories with no logical or decision errors observed.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The scene is consistent with no visible logical or decision errors. The ego vehicle maintains a safe and legal path throughout the frames.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The scene is very dark, making it difficult to identify any objects or movements clearly. No visible logical errors such as sudden disappearance or appearance of vehicles or pedestrians are detectable due to low visibility.",
+          "decision_issue": "No visible decision errors such as unsafe or illegal behavior by the ego vehicle are detectable due to low visibility."
+        }
+      ],
+      "overall_finding": "The generated frames are too dark to assess for logical or decision errors effectively. No identifiable objects or movements are visible to evaluate.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The darkness of the frames prevents any meaningful evaluation of logical or decision errors. No visible objects or movements can be assessed.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}

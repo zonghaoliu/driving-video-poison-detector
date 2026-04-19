@@ -1,0 +1,361 @@
+{
+  "video_id": "06",
+  "semantic": [
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The bus in the generated image is slightly blurred but still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is slightly darker, but no specific traffic element is distorted.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The stop sign is slightly blurred but still recognizable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The motorcycle is slightly blurred but identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly darker, but no specific traffic element is distorted.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The bus in the generated image is slightly blurred but still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "Minor blurring of vehicles and traffic signs in generated images, but all elements remain identifiable. No cross-view inconsistencies observed.",
+      "semantic_score": "0.1",
+      "cross_view_score": "0.0",
+      "notes": "All identified issues are minor and do not affect the identifiability of traffic elements. No logical errors detected.",
+      "frame_idx": 0
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The bus appears slightly blurred but still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The stop sign is slightly blurred but still recognizable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The motorcycle appears distorted, affecting its identifiability.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The bus appears slightly blurred but still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "The most significant issue is the distortion of the motorcycle in the BACK_LEFT view, affecting its identifiability. Other views have minor blurring but do not significantly impact identifiability.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The distortion of the motorcycle in the BACK_LEFT view is the most severe issue, leading to a semantic score of 0.4. No cross-view inconsistencies were found.",
+      "frame_idx": 1
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The bus in the generated image is blurred, making it less identifiable.",
+          "cross_view_issue": "The bus appears differently in the FRONT_LEFT and BACK_RIGHT views."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The building and road markings are slightly blurred but still identifiable.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The traffic sign is slightly blurred but still recognizable.",
+          "cross_view_issue": "No significant cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The motorcycle is missing in the generated image, which is a significant distortion.",
+          "cross_view_issue": "The motorcycle's absence is inconsistent with its presence in the BACK view."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The motorcycle is present but slightly blurred.",
+          "cross_view_issue": "The motorcycle's presence is inconsistent with its absence in the BACK_LEFT view."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The bus is blurred, making it less identifiable.",
+          "cross_view_issue": "The bus appears differently in the FRONT_LEFT and BACK_RIGHT views."
+        }
+      ],
+      "overall_finding": "The generated images exhibit several semantic errors, including blurred vehicles and missing objects, such as the motorcycle in the BACK_LEFT view. There are also cross-view inconsistencies with the bus and motorcycle.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.7",
+      "notes": "The most severe issue is the missing motorcycle in the BACK_LEFT view, which poses a significant safety concern. Cross-view inconsistencies with the bus and motorcycle further contribute to logical errors.",
+      "frame_idx": 2
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The bus is missing in the generated image.",
+          "cross_view_issue": "The bus is visible in the BACK_RIGHT view but missing in the FRONT_LEFT view."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "Multiple cars appear distorted and merged.",
+          "cross_view_issue": "The distortion of cars is not consistent with other views."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "No significant semantic errors observed.",
+          "cross_view_issue": "No cross-view inconsistencies observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The bus is missing in the generated image.",
+          "cross_view_issue": "The bus is visible in the BACK_RIGHT view but missing in the FRONT_LEFT view."
+        }
+      ],
+      "overall_finding": "The generated images show significant semantic errors, including missing and distorted vehicles. Cross-view inconsistencies are present with the bus missing in some views but visible in others.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.7",
+      "notes": "The missing bus and distorted cars present significant safety concerns, as they could lead to misinterpretation of the traffic scene.",
+      "frame_idx": 3
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows significant blurring of the bus and surrounding structures, leading to misrepresentation.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image has a slight blur on the building, but it is still identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows blurring of vehicles and trees, but they remain identifiable.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows blurring of vehicles and the motorcycle, leading to misrepresentation.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows blurring of the motorcycle and trees, leading to misrepresentation.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows significant blurring of the bus and surrounding structures, leading to misrepresentation.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit significant blurring in multiple views, particularly affecting the representation of vehicles and structures. This leads to misrepresentation of traffic elements, although they remain somewhat identifiable.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is semantic blurring across multiple views, affecting the identifiability of traffic elements. No cross-view inconsistencies were observed.",
+      "frame_idx": 4
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is significantly blurred, making it difficult to identify specific traffic elements.",
+          "cross_view_issue": "The bus visible in the FRONT_LEFT view is not consistent with the BACK_RIGHT view."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image is slightly blurred, but traffic elements are still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image is slightly blurred, but traffic elements are still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows distortion of vehicles, making them appear merged.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image is slightly blurred, but traffic elements are still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is significantly blurred, making it difficult to identify specific traffic elements.",
+          "cross_view_issue": "The bus visible in the BACK_RIGHT view is not consistent with the FRONT_LEFT view."
+        }
+      ],
+      "overall_finding": "Significant blurring and distortion in the FRONT_LEFT and BACK_RIGHT views, with cross-view inconsistency regarding the bus's appearance.",
+      "semantic_score": "0.8",
+      "cross_view_score": "0.5",
+      "notes": "The FRONT_LEFT and BACK_RIGHT views have significant blurring and distortion, affecting traffic element identification. Cross-view inconsistency is noted with the bus's appearance.",
+      "frame_idx": 5
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image shows a bus that is slightly blurred, but it is still identifiable as a bus.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a road marking that is slightly distorted but still recognizable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image shows a car that appears slightly blurred but is still identifiable as a car.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows a slight blur on the building, but it remains identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image shows a motorcycle that is slightly blurred but still identifiable.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image shows a bus that is slightly blurred, but it is still identifiable as a bus.",
+          "cross_view_issue": "No cross-view inconsistency observed."
+        }
+      ],
+      "overall_finding": "Minor semantic issues observed in the generated images, such as slight blurring of vehicles and road markings, but all elements remain identifiable. No cross-view inconsistencies detected.",
+      "semantic_score": "0.2",
+      "cross_view_score": "0.0",
+      "notes": "The semantic issues are minor and do not significantly impact the identifiability of traffic elements. No logical errors or decision errors were observed.",
+      "frame_idx": 6
+    },
+    {
+      "per_view_observations": [
+        {
+          "view": "FRONT_LEFT",
+          "semantic_issue": "The generated image is significantly blurred, causing distortion of the building and surrounding elements.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT",
+          "semantic_issue": "The generated image shows a distortion in the building structure, with a missing section on the top right.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "FRONT_RIGHT",
+          "semantic_issue": "The generated image has a blurred vehicle, making it difficult to identify.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_LEFT",
+          "semantic_issue": "The generated image shows a distortion in the building structure, with a missing section on the top right.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK",
+          "semantic_issue": "The generated image has a blurred vehicle, making it difficult to identify.",
+          "cross_view_issue": "None observed."
+        },
+        {
+          "view": "BACK_RIGHT",
+          "semantic_issue": "The generated image is significantly blurred, causing distortion of the building and surrounding elements.",
+          "cross_view_issue": "None observed."
+        }
+      ],
+      "overall_finding": "The generated images exhibit significant blurring and distortion, particularly affecting the identification of buildings and vehicles. No cross-view inconsistencies were observed.",
+      "semantic_score": "0.4",
+      "cross_view_score": "0.0",
+      "notes": "The primary issue is semantic distortion due to blurring, affecting the identification of traffic elements. No logical or decision errors were noted.",
+      "frame_idx": 7
+    }
+  ],
+  "temporal": [
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The bus gradually disappears from the scene, which is a logical error as it should remain visible throughout the sequence.",
+          "decision_issue": "No decision errors observed as the ego vehicle's path is not clearly depicted."
+        }
+      ],
+      "overall_finding": "The generated frames show a logical error with the gradual disappearance of the bus, which should remain visible. No decision errors are observed.",
+      "logical_score": "0.5",
+      "decision_score": "0.0",
+      "notes": "The bus disappearing is a logical error that could affect situational awareness, but no immediate decision errors are present.",
+      "view": "FRONT_LEFT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The trajectory of the ego vehicle appears smooth and consistent with no sudden appearance or disappearance of objects.",
+          "decision_issue": "The ego vehicle maintains a safe path on the road without veering into non-drivable areas."
+        }
+      ],
+      "overall_finding": "The generated frames show a consistent and smooth trajectory of the ego vehicle. There are no logical or decision errors observed that would impact safety.",
+      "logical_score": "0.0",
+      "decision_score": "0.0",
+      "notes": "The generated images maintain consistency with the ground truth in terms of vehicle trajectory and positioning. No safety issues detected.",
+      "view": "FRONT"
+    },
+    {
+      "temporal_observations": [
+        {
+          "frame_range": "0-7",
+          "logical_issue": "The black car on the left side of the frame appears to move in a jittery manner, with inconsistent velocity and trajectory.",
+          "decision_issue": "The ego vehicle appears to be moving towards the sidewalk area, which could indicate unsafe behavior."
+        }
+      ],
+      "overall_finding": "The generated frames exhibit logical errors with the jittery movement of a black car and decision errors with the ego vehicle's trajectory towards a non-drivable area.",
+      "logical_score": "0.5",
+      "decision_score": "0.7",
+      "notes": "The black car's jittery movement suggests a logical error, while the ego vehicle's trajectory towards the sidewalk indicates a decision error.",
+      "view": "FRONT_RIGHT"
+    }
+  ]
+}
