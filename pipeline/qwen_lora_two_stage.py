@@ -32,9 +32,21 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
 
+from config import (
+    VLM_BACKEND,
+    OPENAI_API_KEY,
+    MODEL,
+    QWEN_MODEL_ID,
+    QWEN_LOCAL_DIR,
+    QWEN_MAX_NEW_TOKENS,
+    QWEN_MIN_PIXELS,
+    QWEN_MAX_PIXELS,
+)
+
 try:
     from peft import LoraConfig, get_peft_model
-    from transformers import AutoProcessor, AutoModelForCausalLM
+    from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+    # from transformers import AutoProcessor, AutoModelForCausalLM
     HAS_PEFT = True
 except ImportError:
     HAS_PEFT = False
@@ -180,11 +192,18 @@ class QwenLoRATwoStageTrainer:
         )
 
         logger.info(f"Loading model {model_id} for Sub-task {sub_task}...")
-        self.processor = AutoProcessor.from_pretrained(model_id)
-        self.base_model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            device_map=str(self.device),
+        ckpt = str(QWEN_LOCAL_DIR) if QWEN_LOCAL_DIR.exists() else QWEN_MODEL_ID
+        print(f"[qwen] loading {ckpt} ...")
+        self.base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            ckpt,
             torch_dtype=torch.bfloat16,
+            device_map="auto",
+        )
+        self.base_model.eval()
+        self.processor = AutoProcessor.from_pretrained(
+            ckpt,
+            min_pixels=QWEN_MIN_PIXELS,
+            max_pixels=QWEN_MAX_PIXELS,
         )
 
         self.model = get_peft_model(self.base_model, self.lora_config)
