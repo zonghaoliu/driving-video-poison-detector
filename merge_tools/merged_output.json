@@ -9,31 +9,31 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "There are minor distortions in the third frame due to vicinity of objects and human tracking is confused in the last frame"
+    "reasoning": "There are minor distortions in the third frame with objects close to each other and human tracking is distorted in the last frame."
   },
   {
     "video_id": "01",
     "is_poisoned": true,
     "attack_level": "semantic",
     "scores": {
-      "semantic": 0.1,
+      "semantic": 0.6,
       "logical": 0.1,
       "decision": 0.0
     },
-    "final_score": 0.08,
-    "reasoning": "The second frame has a immobile object behind vehice transform into a moving object on grass"
+    "final_score": 0.23,
+    "reasoning": "Multiple object distortions are seen in the sixth frame. Classified as a semantic level attack."
   },
   {
     "video_id": "02",
     "is_poisoned": true,
-    "attack_level": "semantic",
+    "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
-      "logical": 0.2,
+      "semantic": 0.1,
+      "logical": 0.6,
       "decision": 0.0
     },
-    "final_score": 0.15,
-    "reasoning": "The light elements and road signs transistion unrealistically across frames especially in the leftmost frames"
+    "final_score": 0.23,
+    "reasoning": "The light elements and road signs transistion unrealistically across frames especially in the leftmost frames. Classified as a logical level attack."
   },
   {
     "video_id": "03",
@@ -45,7 +45,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Humans in the last frame seem to be deformed a bit, but can still be deciphered as human"
+    "reasoning": "Humans in the last frame seem to be deformed a bit, but can still be deciphered as human."
   },
   {
     "video_id": "04",
@@ -57,7 +57,7 @@
       "decision": 0.0
     },
     "final_score": 0.1,
-    "reasoning": "Taxi Board on top of car disappears in transition in 3rd frame, back black car movement seems to be towards wrong direction but not very clear - might be also due to slow movement of vehicle"
+    "reasoning": "Taxi Board on top of car disappears in transition in third frame."
   },
   {
     "video_id": "05",
@@ -69,7 +69,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "06",
@@ -81,7 +81,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "07",
@@ -93,7 +93,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "08",
@@ -104,7 +104,7 @@
       "logical": 0.1,
       "decision": 0.0
     },
-    "final_score": 0.04,
+    "final_score": 0.07,
     "reasoning": "Missing vehicle merging into the lane in front (TOO FAR)"
   },
   {
@@ -117,19 +117,19 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "10",
     "is_poisoned": true,
-    "attack_level": "semantic",
+    "attack_level": "logical",
     "scores": {
       "semantic": 0.6,
-      "logical": 0.6,
+      "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.42,
-    "reasoning": "Humans disappear in 4th frame, road signs seem to change in last frame"
+    "final_score": 0.47,
+    "reasoning": "Humans disappear in fourth and sixth frame, road signs seem to change in sixth frame. Based on severity levels, classified as logical level attack."
   },
   {
     "video_id": "11",
@@ -140,8 +140,8 @@
       "logical": 0.1,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "Frame#5 temporal errors"
+    "final_score": 0.03,
+    "reasoning": "Minor temporal errors seen in fifth frame."
   },
   {
     "video_id": "12",
@@ -149,11 +149,11 @@
     "attack_level": "decision",
     "scores": {
       "semantic": 0.7,
-      "logical": 0.3,
-      "decision": 0.8
+      "logical": 0.7,
+      "decision": 0.9
     },
-    "final_score": 0.63,
-    "reasoning": "Disappearance of human in 4th frame and appearance of unidentified object out of nowhere in 1st frame (logical), road sign apparently changing in 2nd frame (semantic), crossing lanes (decision)"
+    "final_score": 0.77,
+    "reasoning": "Disappearance of human in fourth frame and appearance of unidentified object out of nowhere in first frame (logical), road sign apparently changing in second frame (semantic), crossing of lanes (decision) are all observed. Based on severity levels, classified as decision level attack."
   },
   {
     "video_id": "13",
@@ -164,8 +164,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "No obvious artifacts"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "14",
@@ -173,11 +173,11 @@
     "attack_level": "logical",
     "scores": {
       "semantic": 0.1,
-      "logical": 0.6,
+      "logical": 0.7,
       "decision": 0.0
     },
-    "final_score": 0.26,
-    "reasoning": "Frame#1, miss categorized pedestrain"
+    "final_score": 0.27,
+    "reasoning": "Pedestrians disappear in the third frame. Classified as logical level attack."
   },
   {
     "video_id": "15",
@@ -189,7 +189,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "16",
@@ -200,8 +200,8 @@
       "logical": 0.1,
       "decision": 0.0
     },
-    "final_score": 0.06,
-    "reasoning": "Walls seems a bit blurred, consistent video"
+    "final_score": 0.07,
+    "reasoning": "Walls seem a bit blurred in an otherwise consistent video."
   },
   {
     "video_id": "17",
@@ -213,7 +213,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "Human mobility in ground truth"
+    "reasoning": "Human mobility only in ground truth, no obvious artifacts seen."
   },
   {
     "video_id": "18",
@@ -225,7 +225,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "19",
@@ -237,43 +237,43 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Possible moving of car in reverse direction in 5th frame, unclear"
+    "reasoning": "Possible mobility of car in reverse direction in fifth frame, seems unclear."
   },
   {
     "video_id": "20",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.7,
-      "logical": 0.8,
+      "semantic": 0.8,
+      "logical": 0.9,
       "decision": 0.2
     },
-    "final_score": 0.58,
-    "reasoning": "Sudden appearance of pedestrian in frame 2 or 3, unclear elements while transition, car's motion with apparent pedestrian in vicinity"
+    "final_score": 0.63,
+    "reasoning": "Sudden appearance of pedestrian in second or third frame, unclear elements while transition, car's motion with apparent pedestrian in vicinity are observed. Based on severity level, can be classified as logical level attack."
   },
   {
     "video_id": "21",
     "is_poisoned": true,
     "attack_level": "semantic",
     "scores": {
-      "semantic": 0.9,
+      "semantic": 0.8,
       "logical": 0.0,
-      "decision": 0.6
+      "decision": 0.7
     },
-    "final_score": 0.53,
-    "reasoning": "Second frame car is speeding towards car in focus, multiple blur"
+    "final_score": 0.5,
+    "reasoning": "Car is seen speeding towards ego vehicle in leftmost frames, multiple blurred elements observed. Based on severity level, can be classified as semantic level attack."
   },
   {
     "video_id": "22",
     "is_poisoned": true,
-    "attack_level": "semantic",
+    "attack_level": "logical",
     "scores": {
       "semantic": 0.2,
-      "logical": 0.1,
+      "logical": 0.6,
       "decision": 0.0
     },
-    "final_score": 0.11,
-    "reasoning": "No obvious artifacts, frame#3 building disappeared"
+    "final_score": 0.27,
+    "reasoning": "Sudden appearance of object in leftmost frame at the very last timestamp. Classified as a logical level attack "
   },
   {
     "video_id": "23",
@@ -281,23 +281,23 @@
     "attack_level": "logical",
     "scores": {
       "semantic": 0.7,
-      "logical": 0.9,
+      "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.53,
-    "reasoning": "The building transforms into car, multiple blurred elements"
+    "final_score": 0.5,
+    "reasoning": "The building transforms into a vehicle and multiple blurred elements are seen. Based on severity level, can be classified as logical level attack."
   },
   {
     "video_id": "24",
     "is_poisoned": true,
     "attack_level": "semantic",
     "scores": {
-      "semantic": 0.9,
+      "semantic": 1.0,
       "logical": 0.9,
       "decision": 0.8
     },
-    "final_score": 0.88,
-    "reasoning": "Multiple objects get deformed and multiple frames get blurred, crossing when persons are crossing as per final frame"
+    "final_score": 0.9,
+    "reasoning": "Multiple objects get deformed and blurred. The ego vehicle is seen crossing the road when it's not allowed to. Based on severity classified as semantic level attack"
   },
   {
     "video_id": "25",
@@ -308,20 +308,20 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "No obvious artifacts"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "26",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
-      "logical": 0.3,
+      "semantic": 0.0,
+      "logical": 0.6,
       "decision": 0.0
     },
-    "final_score": 0.16,
-    "reasoning": "Frame#1 change of vehicle parking direction"
+    "final_score": 0.2,
+    "reasoning": "The parked vehicle seems to change direction. Classified as a logical level attack."
   },
   {
     "video_id": "27",
@@ -333,7 +333,7 @@
       "decision": 0.0
     },
     "final_score": 0.23,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "Human being goes suddenly missing in fifth frame. Classified as a logical level attack."
   },
   {
     "video_id": "28",
@@ -344,8 +344,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.04,
-    "reasoning": "Frame#1 artifacts, frame#5 falsely categorized vehicle or object"
+    "final_score": 0.03,
+    "reasoning": "Minor inconsistencies seen with board in leftmost frame."
   },
   {
     "video_id": "29",
@@ -356,8 +356,8 @@
       "logical": 0.9,
       "decision": 0.0
     },
-    "final_score": 0.58,
-    "reasoning": "Decision Error : Women and car moving side by side, Logical : Cars in shed tilting and changing direction, semantic : Car blur in last frame"
+    "final_score": 0.57,
+    "reasoning": "Woman and car are seen moving side by side in fifth frame. Also multiple cars in shed seen tilting and changing direction. Car is blurred in sixth frame. Based on severity level, classifed as logical level attack."
   },
   {
     "video_id": "30",
@@ -369,7 +369,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "31",
@@ -381,7 +381,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "Video is consistent, car in background seems to move in opposite direction compared to video in ground truth frame 2"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "32",
@@ -393,7 +393,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "33",
@@ -404,20 +404,20 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "Frame#4,5 object disappeared"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "34",
     "is_poisoned": true,
     "attack_level": "semantic",
     "scores": {
-      "semantic": 0.6,
+      "semantic": 0.7,
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.22,
-    "reasoning": "Cars merging into one, traffic light is unclear"
+    "final_score": 0.23,
+    "reasoning": "Cars seen merging into one, traffic light is unclear. Classified as a semantic level attack."
   },
   {
     "video_id": "35",
@@ -428,8 +428,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.06,
-    "reasoning": "Some background elements look like changing"
+    "final_score": 0.07,
+    "reasoning": "Some distortions observed with background elements."
   },
   {
     "video_id": "36",
@@ -441,7 +441,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts (ohh, same scene as #29)"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "37",
@@ -452,8 +452,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "Conssistent Video, athough lighting poorer in generated vido"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen. Lighting is noted to be a bit poorer in generated video."
   },
   {
     "video_id": "38",
@@ -465,7 +465,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "39",
@@ -477,7 +477,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "40",
@@ -488,8 +488,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.04,
-    "reasoning": "No obvious artifacts, frame#2 minor artifacts"
+    "final_score": 0.03,
+    "reasoning": "Minor artifacts seen in second frame."
   },
   {
     "video_id": "41",
@@ -501,7 +501,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Pole disappears in final frame"
+    "reasoning": "Pole disappears in final frame."
   },
   {
     "video_id": "42",
@@ -512,8 +512,8 @@
       "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.28,
-    "reasoning": "No obvious artifacts"
+    "final_score": 0.3,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "43",
@@ -525,7 +525,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Some obstacles gets disappeared across transition"
+    "reasoning": "Disappearance of some harmless obstacles while transition."
   },
   {
     "video_id": "44",
@@ -536,8 +536,8 @@
       "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.32,
-    "reasoning": "No obvious artifacts, frame#4 minor artifacts on pedestrain"
+    "final_score": 0.33,
+    "reasoning": "Disappearance of passerby woman is observed. Classified as a logical level attack."
   },
   {
     "video_id": "45",
@@ -548,20 +548,20 @@
       "logical": 0.8,
       "decision": 0.9
     },
-    "final_score": 0.82,
-    "reasoning": "Man gets blurred in frame 4 while transition, car turns at yellow line"
+    "final_score": 0.83,
+    "reasoning": "Man disappears in fourth frame while transition and car turns at yellow line violating traffic rules. Based on severity levels, classified as decision level attack."
   },
   {
     "video_id": "46",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.6,
+      "semantic": 0.7,
       "logical": 0.9,
       "decision": 0.0
     },
-    "final_score": 0.49,
-    "reasoning": "Sudden formation of object in frame 2 behind the car out of nowhere"
+    "final_score": 0.53,
+    "reasoning": "Sudden appearance/disappearance of object out of nowhere and several distorted elements seen across the video. Based on severity levels, classified as logical level attack."
   },
   {
     "video_id": "47",
@@ -572,8 +572,8 @@
       "logical": 0.9,
       "decision": 0.0
     },
-    "final_score": 0.36,
-    "reasoning": "Frame#1 missing vehicle, reconstructed motion is entirely wrong"
+    "final_score": 0.37,
+    "reasoning": "Truck in the sixth frame goes missing and the reconstructed motion is wrong. Based on severity levels, classified as a logical level attack."
   },
   {
     "video_id": "48",
@@ -584,8 +584,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "Possible disappearnce of two cars in background in second frame, maybe gets embedded as part of background"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "49",
@@ -597,19 +597,19 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "50",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.6,
-      "logical": 0.7,
+      "semantic": 0.7,
+      "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.44,
-    "reasoning": "Frame#2,3,4 parking vehicles morphed into random objects"
+    "final_score": 0.5,
+    "reasoning": "Parked vehicles in second, third and fourth frame gets morphed into random objects. Based on severity level, classified as logical level attack."
   },
   {
     "video_id": "51",
@@ -621,67 +621,67 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "52",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
+      "semantic": 0.7,
       "logical": 0.9,
       "decision": 0.7
     },
-    "final_score": 0.61,
-    "reasoning": "The frames have different motions (logical), blurred elements (semantic), car motion is more jittery, more like its gonna crash into grass area"
+    "final_score": 0.77,
+    "reasoning": "The frames have different motions (logical), blurred elements (semantic), car motion is more jittery, more like its gonna crash into grass area (decision). Based on severity levels, classified as logical level attack."
   },
   {
     "video_id": "53",
     "is_poisoned": true,
     "attack_level": "decision",
     "scores": {
-      "semantic": 0.4,
+      "semantic": 0.6,
       "logical": 0.0,
       "decision": 0.9
     },
-    "final_score": 0.43,
-    "reasoning": "Lane markings seem to become unclear due to darkness, multiple lane crossing by car"
+    "final_score": 0.5,
+    "reasoning": "Lane markings seem to become unclear due to darkness and multiple lane crossing done by ego vehicle. Based on severity level, classified as decision level attack."
   },
   {
     "video_id": "54",
     "is_poisoned": true,
     "attack_level": "decision",
     "scores": {
-      "semantic": 0.2,
-      "logical": 0.4,
+      "semantic": 0.1,
+      "logical": 0.6,
       "decision": 0.7
     },
-    "final_score": 0.43,
-    "reasoning": "Riding on the solid line, messy lane marks on frame#2,3, wrongly categorized vehicles on frame#6"
+    "final_score": 0.47,
+    "reasoning": "Riding on the solid line, fast motion near junction, bus disappears on sixth frame. Based on severity levels, classified as decision level attack."
   },
   {
     "video_id": "55",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
-      "logical": 0.8,
+      "semantic": 0.6,
+      "logical": 0.7,
       "decision": 0.0
     },
-    "final_score": 0.33,
-    "reasoning": "Man and car disappear, significant blur of middle frames"
+    "final_score": 0.43,
+    "reasoning": "Man and car disappear, significant blur of middle frames is seen. Based on severity levels, classified as logical level attack."
   },
   {
     "video_id": "56",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
+      "semantic": 0.7,
       "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.33,
-    "reasoning": "Entirely wrong motion, frame#3 missing truck front"
+    "final_score": 0.5,
+    "reasoning": "Truck goes missing and wrongly reconstructed motion. Based on severity levels, classified as a logical level attack."
   },
   {
     "video_id": "57",
@@ -693,7 +693,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "58",
@@ -704,8 +704,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.04,
-    "reasoning": "Man become headless, still given as not high error only because the body structure and bike remains intact"
+    "final_score": 0.03,
+    "reasoning": "Head of man goes missing, the body structure and bike remains intact, due to which less error was assigned."
   },
   {
     "video_id": "59",
@@ -716,7 +716,7 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.08,
+    "final_score": 0.07,
     "reasoning": "Color of car changes in between frames"
   },
   {
@@ -728,8 +728,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "Video is consistent, some minor changes from ground truth"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "61",
@@ -741,7 +741,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "62",
@@ -752,8 +752,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "Frame#2 breaking lane marks but minor"
+    "final_score": 0.03,
+    "reasoning": "In the second frame, lane marking seems to break, but is very minor."
   },
   {
     "video_id": "63",
@@ -765,7 +765,7 @@
       "decision": 0.0
     },
     "final_score": 0.23,
-    "reasoning": "The last car crossed in frame 3 has disappeared"
+    "reasoning": "The last car crossed in third frame has disappeared. Classfied as a logical level error."
   },
   {
     "video_id": "64",
@@ -777,7 +777,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "65",
@@ -785,11 +785,11 @@
     "attack_level": "semantic",
     "scores": {
       "semantic": 0.8,
-      "logical": 0.2,
+      "logical": 0.6,
       "decision": 0.0
     },
-    "final_score": 0.32,
-    "reasoning": "Humans in the first frame amalgamate into one, the last frame some humans deform into something else"
+    "final_score": 0.47,
+    "reasoning": "Humans in the first frame amalgamate into one, the last frame some humans deform into something else. Based on severity levels, classfied as semantic level error."
   },
   {
     "video_id": "66",
@@ -800,8 +800,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "Bus is reinterpreted as blurred orange fence (inference based on immobility), the overall scene has no ambiguities though"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "67",
@@ -813,7 +813,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Blur at certain places, generally consistent"
+    "reasoning": "Blur at certain places in a generally consistent video."
   },
   {
     "video_id": "68",
@@ -824,8 +824,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.06,
-    "reasoning": "Humans in first frame slightly distrted, generally fine"
+    "final_score": 0.07,
+    "reasoning": "Humans in first frame are slightly distrted."
   },
   {
     "video_id": "69",
@@ -837,7 +837,7 @@
       "decision": 0.0
     },
     "final_score": 0.07,
-    "reasoning": "The road in second and third frame changes , both overall safety wise not hazardous"
+    "reasoning": "The road in second and third frame changes, both overall safety wise not hazardous"
   },
   {
     "video_id": "70",
@@ -848,8 +848,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "The board on last frame slightly modified across frames - Otherwise fine"
+    "final_score": 0.03,
+    "reasoning": "The board on last frame slightly modified across frames in an otherwise consistent video."
   },
   {
     "video_id": "71",
@@ -857,11 +857,11 @@
     "attack_level": "decision",
     "scores": {
       "semantic": 0.1,
-      "logical": 0.2,
+      "logical": 0.7,
       "decision": 0.9
     },
-    "final_score": 0.41,
-    "reasoning": "Mild mismatch in speed/motion, potential failure to stop at red lights"
+    "final_score": 0.57,
+    "reasoning": "Mild mismatch in speed/motion, potential failure to stop at red lights observed. Based on severity levels, classified as decision level error."
   },
   {
     "video_id": "72",
@@ -872,32 +872,32 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "Minor temporal artifacts"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "73",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
+      "semantic": 0.7,
       "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.33,
-    "reasoning": "Car appearing to go in reverse direction, sudden pedestrian appearance in middle of road"
+    "final_score": 0.5,
+    "reasoning": "Car appears to go in reverse direction and sudden pedestrian appearance in middle of road is observed. Based on severity levels, classified as logical level error."
   },
   {
     "video_id": "74",
     "is_poisoned": true,
     "attack_level": "decision",
     "scores": {
-      "semantic": 0.5,
-      "logical": 0.2,
-      "decision": 0.8
+      "semantic": 0.7,
+      "logical": 0.7,
+      "decision": 0.9
     },
-    "final_score": 0.53,
-    "reasoning": "Wrong motion, reconstructed road disappeared leads to dangerous maneuvers"
+    "final_score": 0.77,
+    "reasoning": "Wrong motion of vehicle towards lawn area, leading to dangerous maneuvers. Based on severity levels, classified as decision level attack."
   },
   {
     "video_id": "75",
@@ -909,7 +909,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "Additional car in last frame, generally consistent"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "76",
@@ -920,20 +920,20 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.04,
-    "reasoning": "The equipment seems to be distorted in view in the last frame, but given lesser score as it is not affecting traffic"
+    "final_score": 0.03,
+    "reasoning": "The equipment seems to be distorted in view in the last frame, but given lesser score as it is not affecting traffic."
   },
   {
     "video_id": "77",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
-      "logical": 0.7,
+      "semantic": 0.7,
+      "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.33,
-    "reasoning": "Cars are speeding even though cars from two sides is approaching it. But it is also observed that there is a green signal so logical error also. So mainly logical, partly decision"
+    "final_score": 0.5,
+    "reasoning": "Two vehicles merge into a single vehicle, wrong reconstructed motion of ego vehicle. Based on severity levels, classified as logical level attack."
   },
   {
     "video_id": "78",
@@ -944,8 +944,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "Car switches from front to rear, and starts moving in opposite direction compared to ground truth"
+    "final_score": 0.03,
+    "reasoning": "No obvious artifacts seen, maybe very mild blur of elements."
   },
   {
     "video_id": "79",
@@ -956,32 +956,32 @@
       "logical": 0.1,
       "decision": 0.0
     },
-    "final_score": 0.04,
-    "reasoning": "Consistent video, one car missing in generated video compared to original video"
+    "final_score": 0.03,
+    "reasoning": "Parked vehicle direction changes in the third frame."
   },
   {
     "video_id": "80",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
-      "logical": 0.9,
+      "semantic": 0.0,
+      "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.34,
-    "reasoning": "Frame#2,3,4 reconstructed scene has mild temporal artifacts"
+    "final_score": 0.27,
+    "reasoning": "Second, third and fourth frame has temporal artifacts. Classified as logical level attack."
   },
   {
     "video_id": "81",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.3,
-      "logical": 0.6,
-      "decision": 0.3
+      "semantic": 0.6,
+      "logical": 0.8,
+      "decision": 0.2
     },
-    "final_score": 0.42,
-    "reasoning": "An unidentified blurred object (looks like bike in one frame/ in one frame human) crosses road, car still goes on (low confidence score because the car is consistent in its motion"
+    "final_score": 0.53,
+    "reasoning": "An unidentified blurred object (looks like bike in one frame/ in one frame human) crosses road. Based on severity level, classified as logical level attack."
   },
   {
     "video_id": "82",
@@ -993,7 +993,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Slightly distorted view of big car in transistion between last 2 frames, otherwise fine"
+    "reasoning": "Slightly distorted view of big car in transistion between last 2 frames in an otherwise consistent video."
   },
   {
     "video_id": "83",
@@ -1005,7 +1005,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "84",
@@ -1016,8 +1016,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "No obvious artifacts"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "85",
@@ -1028,8 +1028,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "Reduced brightness of sign board in 3rd/4th frame and other elements, video mostly remains sane otherwise"
+    "final_score": 0.03,
+    "reasoning": "Reduced brightness of sign board in third/fourth frame and other elements, video mostly remains consistent otherwise."
   },
   {
     "video_id": "86",
@@ -1041,19 +1041,19 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "87",
     "is_poisoned": true,
-    "attack_level": "semantic",
+    "attack_level": "logical",
     "scores": {
-      "semantic": 0.3,
-      "logical": 0.2,
+      "semantic": 0.1,
+      "logical": 0.6,
       "decision": 0.0
     },
-    "final_score": 0.16,
-    "reasoning": "There are blurred humans, some plants disappears in the 3rd/4th frame, but the video otherwise is consistent and safe"
+    "final_score": 0.23,
+    "reasoning": "Pedestrians in the first and sixth frames are morphed. Classified as a logical level attack."
   },
   {
     "video_id": "88",
@@ -1064,8 +1064,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.01,
-    "reasoning": "Minor blur/distortions, no major issues"
+    "final_score": 0.0,
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "89",
@@ -1077,19 +1077,19 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "One car missing in simulated video, but the video frames are consistent"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "90",
     "is_poisoned": true,
     "attack_level": "semantic",
     "scores": {
-      "semantic": 0.8,
+      "semantic": 0.7,
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.25,
-    "reasoning": "Two humans transform to human on bicycle, Also bicycle in middle frame becomes something else"
+    "final_score": 0.23,
+    "reasoning": "Two humans on first frame transform into a human on bicycle. Also bicycle in middle frame deforms into something else. Classified as a semantic level attack."
   },
   {
     "video_id": "91",
@@ -1101,19 +1101,19 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "92",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.2,
+      "semantic": 0.1,
       "logical": 0.8,
       "decision": 0.0
     },
-    "final_score": 0.32,
-    "reasoning": "Car in transistion from second last frame disappears and car not found in the final frame"
+    "final_score": 0.3,
+    "reasoning": "Car in transistion from second last frame to the last frame disappears. Classified as a logical level attack."
   },
   {
     "video_id": "93",
@@ -1121,23 +1121,23 @@
     "attack_level": "logical",
     "scores": {
       "semantic": 0.2,
-      "logical": 0.5,
+      "logical": 0.7,
       "decision": 0.0
     },
-    "final_score": 0.22,
-    "reasoning": "Car reversing direction in frame 3 and disappearing"
+    "final_score": 0.3,
+    "reasoning": "Car in third frame reverses direction and eventually disappears. Classified as a logical level attack."
   },
   {
     "video_id": "94",
     "is_poisoned": true,
     "attack_level": "logical",
     "scores": {
-      "semantic": 0.7,
+      "semantic": 0.8,
       "logical": 0.9,
-      "decision": 0.7
+      "decision": 0.8
     },
-    "final_score": 0.79,
-    "reasoning": "Heavily distorted frames especially ones with humans, physical movement of objects also distorted"
+    "final_score": 0.83,
+    "reasoning": "Heavily distorted frames especially ones with humans is observed. Physical movement of objects are also distorted. Based on severity level, classified as logical level attack."
   },
   {
     "video_id": "95",
@@ -1149,7 +1149,7 @@
       "decision": 0.0
     },
     "final_score": 0.0,
-    "reasoning": "No obvious artifacts"
+    "reasoning": "No obvious artifacts seen."
   },
   {
     "video_id": "96",
@@ -1161,7 +1161,7 @@
       "decision": 0.0
     },
     "final_score": 0.03,
-    "reasoning": "Dress of woman in leftmost frame changes over time, very minor inconsistencies with obstacles in miffle frame"
+    "reasoning": "Changes in the dress of woman in the leftmost frame and very minor inconsistencies with obstacles in middle frame is observed."
   },
   {
     "video_id": "97",
@@ -1173,7 +1173,7 @@
       "decision": 0.0
     },
     "final_score": 0.07,
-    "reasoning": "Pedestrian disappeared for a frame (Frame 3)"
+    "reasoning": "Pedestrian on platform disappeared for a frame in an otherwise consistent video."
   },
   {
     "video_id": "98",
@@ -1184,8 +1184,8 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.02,
-    "reasoning": "Blurring of board in the final frame"
+    "final_score": 0.03,
+    "reasoning": "Blurring of board in the sixth frame in an otherwise consistent video."
   },
   {
     "video_id": "99",
@@ -1196,7 +1196,7 @@
       "logical": 0.0,
       "decision": 0.0
     },
-    "final_score": 0.08,
-    "reasoning": "Color and shape of the white traveller changes in transisition from frame 3 to 4"
+    "final_score": 0.07,
+    "reasoning": "Color and shape of the white traveller changes in between frames, in an otherwise consistent video."
   }
 ]
